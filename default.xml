@@ -77,7 +77,6 @@
   <project path="external/dbus" name="platform/external/dbus" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
@@ -376,6 +375,7 @@
   <project path="device/htc/ace" name="device_htc_ace" remote="cfx-exp" revision="jb-devel" groups="device,ace" />
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="cfx-exp" revision="jb-devel" groups="device" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="cfx-exp" revision="jb-devel" groups="pdk" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel" />
   <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel" groups="pdk" />
