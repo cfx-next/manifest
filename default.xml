@@ -240,7 +240,6 @@
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
-  <project path="hardware/msm7k" name="platform/hardware/msm7k" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
@@ -391,6 +390,7 @@
   <project path="frameworks/av-legacy" name="frameworks_av-legacy" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cfx-exp" revision="jb-devel" />
+  <project path="hardware/msm7k" name="hardware_msm7k" remote="cfx-exp" revision="jb-devel" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="cfx-exp" revision="jb-devel" groups="qcom" />
   <project path="hardware/qcom/audio-legacy" name="hardware_qcom_audio-legacy" remote="cfx-exp" revision="jb-devel" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="cfx-exp" revision="jb-devel" groups="qcom" />
