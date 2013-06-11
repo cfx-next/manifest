@@ -385,7 +385,6 @@
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel" />
   <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="frameworks/av-legacy" name="frameworks_av-legacy" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="cfx-exp" revision="jb-devel_ />
   <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cfx-exp" revision="jb-devel" />
