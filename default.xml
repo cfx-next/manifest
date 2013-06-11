@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com/platform/"
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
   <remote  name="caf"
