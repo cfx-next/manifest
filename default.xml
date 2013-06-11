@@ -385,8 +385,8 @@
   </project>
   <project path="bionic" name="bionic" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="dalvik" name="dalvik" remote="cfx-exp" revision="jb-devel" />
-  <project path="device/htc/ace" name="device/htc/ace" remote="cfx-exp" revision="jb-devel" groups="device,ace" />
-  <project path="device/htc/msm7x30-common" name="device/htc/msm7x30-common" remote="cfx-exp" revision="jb-devel" groups="device" />
+  <project path="device/htc/ace" name="device_htc_ace" remote="cfx-exp" revision="jb-devel" groups="device,ace" />
+  <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="cfx-exp" revision="jb-devel" groups="device" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel" />
   <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel" groups="pdk" />
