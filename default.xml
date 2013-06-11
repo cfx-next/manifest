@@ -385,6 +385,8 @@
   </project>
   <project path="bionic" name="bionic" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="dalvik" name="dalvik" remote="cfx-exp" revision="jb-devel" />
+  <project path="device/htc/ace" name="device/htc/ace" remote="cfx-exp" revision="jb-devel" groups="device,ace" />
+  <project path="device/htc/msm7x30-common" name="device/htc/msm7x30-common" remote="cfx-exp" revision="jb-devel" groups="device" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel" />
   <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel" groups="pdk" />
@@ -402,6 +404,7 @@
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="cfx-exp" revision="jb-devel" />
   <project path="system/core" name="system_core" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="vendor/cfx" name="vendor_cfx" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx-exp" revision="jb-devel" groups="pdk" />
+  <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx-exp" revision="jb-devel" groups="vendor,ace" />
+  <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx-exp" revision="jb-devel" groups="vendor,qcom" />
 
 </manifest>
