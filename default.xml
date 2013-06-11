@@ -241,7 +241,6 @@
   <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/msm7k" name="platform/hardware/msm7k" />
-  <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom" />
   <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom" />
   <project path="hardware/qcom/gps" name="platform/hardware/qcom/gps" groups="qcom" />
@@ -393,9 +392,12 @@
   <project path="frameworks/av-legacy" name="frameworks_av-legacy" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cfx-exp" revision="jb-devel" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="cfx-exp" revision="jb-devel" groups="qcom" />
+  <project path="hardware/qcom/audio-legacy" name="hardware_qcom_audio-legacy" remote="cfx-exp" revision="jb-devel" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="cfx-exp" revision="jb-devel" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="cfx-exp" revision="jb-devel" groups="qcom" />
   <project path="hardware/qcom/display-legacy" name="hardware_qcom_display-legacy" remote="cfx-exp" revision="jb-devel" groups="qcom" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="cfx-exp" revision="jb-devel" groups="qcom" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="cfx-exp" revision="jb-devel" groups="qcom" />
   <project path="hardware/qcom/media-legacy" name="hardware_qcom_media-legacy" remote="cfx-exp" revision="jb-devel" groups="qcom" />
   <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel" />
