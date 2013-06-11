@@ -33,7 +33,6 @@
   <project path="development" name="platform/development" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
-  <project path="device/common" name="device/common" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
@@ -385,6 +384,7 @@
   </project>
   <project path="bionic" name="bionic" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="dalvik" name="dalvik" remote="cfx-exp" revision="jb-devel" />
+  <project path="device/common" name="device_common" remote="cfx-exp" revision="jb-devel" groups="device" />
   <project path="device/htc/ace" name="device_htc_ace" remote="cfx-exp" revision="jb-devel" groups="device,ace" />
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="cfx-exp" revision="jb-devel" groups="device" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
