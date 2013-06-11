@@ -212,7 +212,6 @@
   <project path="external/yaffs2" name="platform/external/yaffs2" groups="pdk" />
   <project path="external/zlib" name="platform/external/zlib" groups="pdk" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/base" name="platform/frameworks/base" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" groups="pdk" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" groups="pdk" />
@@ -388,6 +387,7 @@
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel" />
   <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="frameworks/av-legacy" name="frameworks_av-legacy" remote="cfx-exp" revision="jb-devel" groups="pdk" />
+  <project path="frameworks/base" name="frameworks_base" remote="cfx-exp" revision="jb-devel_ />
   <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cfx-exp" revision="jb-devel" />
   <project path="hardware/msm7k" name="hardware_msm7k" remote="cfx-exp" revision="jb-devel" />
