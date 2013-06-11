@@ -22,7 +22,7 @@
 
   <default revision="master"
            remote="aosp"
-           sync-j="4" />
+           sync-j="16" />
 
   <!-- Android Open Source Project -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
