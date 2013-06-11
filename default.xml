@@ -65,7 +65,6 @@
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
@@ -383,6 +382,7 @@
   <project path="device/common" name="device_common" remote="cfx-exp" revision="jb-devel" groups="device" />
   <project path="device/htc/ace" name="device_htc_ace" remote="cfx-exp" revision="jb-devel" groups="device,ace" />
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="cfx-exp" revision="jb-devel" groups="device" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel" />
   <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel" groups="pdk" />
