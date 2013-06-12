@@ -78,7 +78,6 @@
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -372,6 +371,7 @@
   <project path="external/chromium" name="external_chromium" remote="cfx-exp" revision="jb-devel" />
   <project path="external/clang" name="external_clang" remote="cfx-exp" revision="jb-devel" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel" groups="pdk" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
   <project path="external/llvm name="external_llvm" remote="cfx-exp" revision="jb-devel" />
