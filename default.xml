@@ -166,7 +166,6 @@
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssh" name="platform/external/openssh" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
-  <project path="external/ping6" name="platform/external/ping6" />
   <project path="external/ppp" name="platform/external/ppp" />
   <project path="external/proguard" name="platform/external/proguard" groups="pdk-java" />
   <project path="external/protobuf" name="platform/external/protobuf" groups="pdk" />
@@ -374,6 +373,7 @@
   <project path="external/llvm" name="external_llvm" remote="cfx-exp" revision="jb-devel" />
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel" />
   <project path="external/ping" name="external_ping" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/ping6" name="external_ping6" remote="cfx-exp" revision="jb-devel" />
   <project path="external/skia" name="external_skia" remote="cfx-exp" revision="jb-devel" />
   <project path="external/v8" name="external_v8" remote="cfx-exp" revision="jb-devel" />
   <project path="external/webkit" name="external_webkit" remote="cfx-exp" revision="jb-devel" />
