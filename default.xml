@@ -145,7 +145,6 @@
   <project path="external/libyuv" name="platform/external/libyuv" />
   <project path="external/linux-tools-perf" name="platform/external/linux-tools-perf" />
   <project path="external/littlemock" name="platform/external/littlemock" />
-  <project path="external/llvm" name="platform/external/llvm" groups="pdk" />
   <project path="external/lohit-fonts" name="platform/external/lohit-fonts" />
   <project path="external/markdown" name="platform/external/markdown" />
   <project path="external/mdnsresponder" name="platform/external/mdnsresponder" groups="pdk" />
@@ -375,6 +374,7 @@
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/llvm name="external_llvm" remote="cfx-exp" revision="jb-devel" />
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel" />
   <project path="external/skia" name="external_skia" remote="cfx-exp" revision="jb-devel" />
   <project path="external/v8" name="external_v8" remote="cfx-exp" revision="jb-devel" />
