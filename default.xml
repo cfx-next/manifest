@@ -72,7 +72,6 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/clang" name="platform/external/clang" groups="pdk" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dbus" name="platform/external/dbus" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
@@ -372,6 +371,7 @@
   <project path="external/angle" name="external_angle" remote="cfx-exp" revision="jb-devel" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/chromium" name="external_chromium" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/clang" name="external_clang" remote="cfx-exp" revision="jb-devel" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
