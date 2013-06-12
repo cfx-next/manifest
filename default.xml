@@ -197,7 +197,6 @@
   <project path="external/tinyxml" name="platform/external/tinyxml" />
   <project path="external/tinyxml2" name="platform/external/tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
-  <project path="external/v8" name="platform/external/v8" />
   <project path="external/valgrind" name="platform/external/valgrind" groups="pdk" />
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
@@ -374,11 +373,13 @@
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="cfx-exp" revision="jb-devel" groups="device" />
   <project path="external/angle" name="external_angle" remote="cfx-exp" revision="jb-devel" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="cfx-exp" revision="jb-devel" groups="pdk" />
+  <project path="external/chromium" name="external_chromium" remote="cfx-exp" revision="jb-devel" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel" />
   <project path="external/skia" name="external_skia" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/v8" name="external_v8" remote="cfx-exp" revision="jb-devel" />
   <project path="external/webkit" name="external_webkit" remote="cfx-exp" revision="jb-devel" />
   <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="cfx-exp" revision="jb-devel" />
