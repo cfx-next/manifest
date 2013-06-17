@@ -84,7 +84,6 @@
   <project path="external/embunit" name="platform/external/embunit" />
   <project path="external/emma" name="platform/external/emma" />
   <project path="external/esd" name="platform/external/esd" />
-  <project path="external/expat" name="platform/external/expat" groups="pdk" />
   <project path="external/eyes-free" name="platform/external/eyes-free" />
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
@@ -363,6 +362,7 @@
   <project path="external/clang" name="external_clang" remote="cfx-exp" revision="jb-devel" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="cfx-exp" revision="jb-devel" groups="pdk" />
+  <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
   <project path="external/llvm" name="external_llvm" remote="cfx-exp" revision="jb-devel" />
