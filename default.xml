@@ -12,7 +12,7 @@
            fetch="https://bitbucket.org/codefirex" />
 
   <remote  name="cfx-exp"
-           fetch="git://github.com/codefireX-Experiment/" />
+           fetch="git://github.com/codefireXperiment/" />
 
   <remote  name="github"
            fetch="git://github.com" />
