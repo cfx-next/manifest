@@ -127,7 +127,6 @@
   <project path="external/libogg" name="platform/external/libogg" />
   <project path="external/libpcap" name="platform/external/libpcap" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libppp" name="platform/external/libppp" />
   <project path="external/libsepol" name="platform/external/libsepol" />
   <project path="external/libusb" name="platform/external/libusb" />
@@ -363,6 +362,7 @@
   <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel" />
   <project path="external/jpeg" name="external_jpeg" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/libpng" name="external_libpng" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
   <project path="external/llvm" name="external_llvm" remote="cfx-exp" revision="jb-devel" />
   <project path="external/openssh" name="external_openssh" remote="cfx-exp" revision="jb-devel" />
