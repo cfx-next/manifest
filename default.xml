@@ -358,6 +358,7 @@
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="cfx-exp" revision="jb-devel" groups="device" />
   <project path="external/angle" name="external_angle" remote="cfx-exp" revision="jb-devel" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="cfx-exp" revision="jb-devel" groups="pdk" />
+  <project path="external/busybox" name="external_busybox" remote="cfx-exp" revision="jb-devel" />
   <project path="external/chromium" name="external_chromium" remote="cfx-exp" revision="jb-devel" />
   <project path="external/clang" name="external_clang" remote="cfx-exp" revision="jb-devel" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel" groups="pdk" />
