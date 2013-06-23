@@ -168,7 +168,6 @@
   <project path="external/regex-re2" name="platform/external/regex-re2" />
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
-  <project path="external/sepolicy" name="platform/external/sepolicy" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
@@ -366,6 +365,7 @@
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel" />
   <project path="external/ping" name="external_ping" remote="cfx-exp" revision="jb-devel" />
   <project path="external/ping6" name="external_ping6" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/sepolicy" name="external_sepolicy" remote="cfx-exp" revision="jb-devel" />
   <project path="external/skia" name="external_skia" remote="cfx-exp" revision="jb-devel" />
   <project path="external/v8" name="external_v8" remote="cfx-exp" revision="jb-devel" />
   <project path="external/webkit" name="external_webkit" remote="cfx-exp" revision="jb-devel" />
