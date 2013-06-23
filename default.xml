@@ -357,6 +357,8 @@
   <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel" />
   <project path="external/jpeg" name="external_jpeg" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/koush/Superuser" name="external_koush_superuser" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/koush/Widgets" name="external_koush_widgets" remote="cfx-exp" revision="jb-devel" />
   <project path="external/libpng" name="external_libpng" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
   <project path="external/llvm" name="external_llvm" remote="cfx-exp" revision="jb-devel" />
