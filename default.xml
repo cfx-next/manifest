@@ -332,7 +332,7 @@
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.1" groups="qcom" />
 
   <!-- The Muppets -->
-  <project path="vendor/htc" name="TheMuppets/proprietary_htc_muppets" remote="github" revision="cm-10.1" groups="vendor,htc,muppets" />
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-10.1" groups="vendor,htc,muppets" />
 
   <!-- codefireX -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.7" remote="cfx" revision="jb-devel" />
