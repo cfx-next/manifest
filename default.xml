@@ -335,23 +335,33 @@
   <project path="device/moto/stingray" name="device_moto_stingray" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
   <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
-  <project path="device/sony/nozomi" name="RaymanFX/device_sony_nozomi" remote="github" revision="jellybean-4.2" groups="device,sony,nozomi"/>
 
   <!-- Kernels -->
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel" groups="kernel,moto,xoom" />
-  <project path="kernel/sony/msm8x60" name="RaymanFX/kernel_sony_msm8x60" remote="github" revision="teameos" groups="kernel"/>
 
   <!-- Vendors -->
   <project path="vendor/moto" name="vendor_moto" remote="cfx-exp" revision="jb-devel" groups="vendor,moto" />
-  <project path="vendor/sony/nozomi" name="RaymanFX/vendor_sony_nozomi" remote="github" revision="jellybean-4.2" groups="vendor,sony,nozomi" />
-
-  <!-- Hardware -->
-  <project path="hardware/sony/DASH" name="RaymanFX/android_hardware_sony_DASH" remote="github" revision="jellybean-4.2" groups="sony" />
 
   <!-- Packages -->
   <project path="packages/apps/CDMATools" name="bigrushdog/cdma_tools" remote="github" revision="master" />
 
   <!-- ***** end TeamEos ***** -->
+  
+  <!-- ##### OpenSEMC ##### -->
+  <!-- Devices -->
+  <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="cm-10.1" groups="device,sony,nozomi"/>
+  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="cm-10.1" groups="device,sony,hikari"/>
+  
+  <!-- Kernels -->
+  <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="opensemc-jellybean" groups="kernel"/>
+  
+  <!-- Hardware -->
+  <project path="hardware/sony/DASH" name="OpenSEMC/android_hardware_sony_DASH" remote="github" revision="cm-10.1" groups="sony" />
+  
+  <!-- Vendor -->
+  <project path="vendor/sony" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="cm-10.1" groups="vendor,sony,nozomi" />
+  
+  <!-- ##### end OpenSEMC ##### -->
 
   <!-- CyanogenMod -->
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.1" groups="qcom" />
