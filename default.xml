@@ -334,7 +334,7 @@
   <project path="device/moto/wingray" name="device_moto_wingray" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
   <project path="device/moto/stingray" name="device_moto_stingray" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
   <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
-  <project path="device/moto/stingray_cdma" name="device_moto_stringray_cdma" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
+  <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
   <project path="device/sony/nozomi" name="RaymanFX/device_sony_nozomi" remote="github" revision="jellybean-4.2" groups="device,sony,nozomi"/>
 
   <!-- Kernels -->
