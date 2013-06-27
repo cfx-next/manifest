@@ -214,7 +214,6 @@
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
@@ -356,6 +355,7 @@
   <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="opensemc-jellybean" groups="kernel"/>
   
   <!-- Hardware -->
+  <project path="hardware/qcom/bt" name="OpenSEMC/android_hardware_qcom_bt" remote="github" revision="cm-10.1" groups="qcom" />
   <project path="hardware/sony/DASH" name="OpenSEMC/android_hardware_sony_DASH" remote="github" revision="cm-10.1" groups="sony" />
   
   <!-- Vendor -->
