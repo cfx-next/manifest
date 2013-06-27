@@ -307,7 +307,6 @@
   <project path="prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/mips/mipsel-linux-android-4.7" groups="pdk,linux,mips" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
-  <project path="prebuilts/misc" name="platform/prebuilts/misc" groups="pdk" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
@@ -456,6 +455,7 @@
   <project path="packages/apps/Settings" name="packages_apps_settings" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="cfx-exp" revision="jb-devel" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3-aosp" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="cfx-exp" revision="jb-devel" groups="pdk,linux,arm" />
+  <project path="prebuilts/misc" name="prebuilts_misc" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="sdk" name="sdk" remote="cfx-exp" revision="jb-devel" />
   <project path="system/core" name="system_core" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="system/extras" name="system_extras" remote="cfx-exp" revision="jb-devel" groups="pdk" />
