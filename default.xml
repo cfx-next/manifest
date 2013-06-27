@@ -348,6 +348,11 @@
   
   <!-- ##### OpenSEMC ##### -->
   <!-- Devices -->
+  <project path="device/sony/common" name="OpenSEMC/android_device_sony_common" remote="github" revision="cm-10.1" groups="device,sony,common"/>
+  <project path="device/sony/qcom-common" name="OpenSEMC/android_device_sony_qcom-common" remote="github" revision="cm-10.1" groups="device,sony,qcom-common"/>
+  
+  <project path="device/sony/fuji-common" name="OpenSEMC/android_device_sony_fuji-common" remote="github" revision="cm-10.1" groups="device,sony,fuji-common"/>
+  
   <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="cm-10.1" groups="device,sony,nozomi"/>
   <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="cm-10.1" groups="device,sony,hikari"/>
   
