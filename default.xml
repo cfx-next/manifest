@@ -333,11 +333,11 @@
   <project path="device/moto/stingray" name="device_moto_stingray" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
   <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
-  <!-- <project path="device/asus/tf101" name="device_asus_tf101" remote="cfx-exp" revision="jb-devel" groups="device,asus,tf101" /> -->
+  <project path="device/asus/tf101" name="device_asus_tf101" remote="cfx-exp" revision="jb-devel" groups="device,asus,tf101" />
 
   <!-- Kernels -->
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel" groups="kernel,moto,xoom" />
-  <!-- <project path="kernel/asus/tf101" name="kernel_asus_tf101" remote="cfx-exp" revision="jb-devel" groups="kernel,asus,tf101" /> -->
+  <project path="kernel/asus/tf101" name="kernel_asus_tf101" remote="cfx-exp" revision="jb-devel" groups="kernel,asus,tf101" />
 
   <!-- Vendors -->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="cfx-exp" revision="jb-devel" groups="vendor,asus" />
