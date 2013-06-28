@@ -360,8 +360,8 @@
   
   <project path="device/sony/fuji-common" name="OpenSEMC/android_device_sony_fuji-common" remote="github" revision="cm-10.1" groups="device,sony,fuji-common"/>
   
-  <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="cm-10.1" groups="device,sony,nozomi"/>
-  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="cm-10.1" groups="device,sony,hikari"/>
+  <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="cfx-exp" groups="device,sony,nozomi"/>
+  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="cfx-exp" groups="device,sony,hikari"/>
   
   <!-- Kernels -->
   <!-- <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="opensemc-jellybean" groups="kernel"/> -->
