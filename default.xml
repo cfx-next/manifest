@@ -25,7 +25,7 @@
            sync-j="16" />
 
   <!-- Android Open Source Project -->
-  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
+  <project path="abi/cpp" name="platform/abi/cpp" revision="master" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="bootable/recovery" name="bootable_recovery" remote="cfx-exp" revision="jb-devel" groups="twrp" />
@@ -155,7 +155,7 @@
   <project path="external/nist-sip" name="platform/external/nist-sip" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" />
-  <project path="external/okhttp" name="platform/external/okhttp" />
+  <project path="external/okhttp" name="platform/external/okhttp" revision="master" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
   <project path="external/openssl" name="platform/external/openssl" groups="pdk" />
@@ -171,7 +171,7 @@
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/sqlite" name="platform/external/sqlite" groups="pdk" />
+  <project path="external/sqlite" name="platform/external/sqlite" revision="master" groups="pdk" />
   <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" />
@@ -206,7 +206,7 @@
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
-  <project path="frameworks/volley" name="platform/frameworks/volley" />
+  <project path="frameworks/volley" name="platform/frameworks/volley" revision="master" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/akm" name="platform/hardware/akm" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
@@ -295,8 +295,8 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6-aosp" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-aosp" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6-aosp" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6"revision="master" groups="pdk,linux,arm" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-aosp" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" revision="master groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="pdk,linux" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="pdk,linux" />
@@ -390,7 +390,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="cfx" revision="jb-devel" />
 
   <!-- The codefireXperiment -->
-  <project path="build" name="build" remote="cfx-exp" revision="jb-devel" >
+  <project path="build" name="build" remote="cfx-exp" revision="jb-devel-release" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="bionic" remote="cfx-exp" revision="jb-devel" groups="pdk" />
@@ -430,12 +430,12 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/yaffs2" name="external_yaffs2" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/zlib" name="external_zlib" remote="cfx-exp" revision="jb-devel" />
-  <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="cfx-exp" revision="jb-devel" />
+  <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="frameworks/base" name="frameworks_base" remote="cfx-exp" revision="jb-devel-release" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="frameworks/ex" name="frameworks_ex" remote="cfx-exp" revision="jb-devel" />
-  <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cfx-exp" revision="jb-devel" />
+  <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cfx-exp" revision="jb-devel-release" />
   <project path="frameworks/rs" name="frameworks_rs" remote="cfx-exp" revision="jb-devel" />
   <project path="frameworks/support" name="frameworks_support" remote="cfx-exp" revision="jb-devel" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="cfx-exp" revision="jb-devel" groups="pdk" />
@@ -455,17 +455,17 @@
   <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/apps/0xbench" name="packages_apps_0xbench" remote="cfx-exp" revision="jb-devel" />
-  <project path="packages/apps/Camera" name="packages_apps_camera" remote="cfx-exp" revision="jb-devel" />
-  <project path="packages/apps/Gallery2" name="packages_apps_gallery2" remote="cfx-exp" revision="jb-devel" />
-  <project path="packages/apps/Mms" name="packages_apps_mms" remote="cfx-exp" revision="jb-devel" />
-  <project path="packages/apps/Phone" name="packages_apps_phone" remote="cfx-exp" revision="jb-devel" />
-  <project path="packages/apps/Settings" name="packages_apps_settings" remote="cfx-exp" revision="jb-devel" />
-  <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="cfx-exp" revision="jb-devel" />
+  <project path="packages/apps/Camera" name="packages_apps_camera" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="packages/apps/Gallery2" name="packages_apps_gallery2" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="packages/apps/Mms" name="packages_apps_mms" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="packages/apps/Phone" name="packages_apps_phone" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="packages/apps/Settings" name="packages_apps_settings" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="cfx-exp" revision="jb-devel-release" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3-aosp" name="prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3" remote="cfx-exp" revision="jb-devel" groups="pdk,linux,arm" />
   <project path="prebuilts/misc" name="prebuilts_misc" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="sdk" name="sdk" remote="cfx-exp" revision="jb-devel" />
-  <project path="system/core" name="system_core" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="system/extras" name="system_extras" remote="cfx-exp" revision="jb-devel" groups="pdk" />
+  <project path="sdk" name="sdk" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="system/core" name="system_core" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="system/extras" name="system_extras" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="vendor/cfx" name="vendor_cfx" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx-exp" revision="jb-devel" groups="vendor,ace" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx-exp" revision="jb-devel" groups="vendor,qcom" />
