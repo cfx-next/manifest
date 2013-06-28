@@ -340,6 +340,7 @@
   <!-- <project path="kernel/asus/tf101" name="kernel_asus_tf101" remote="cfx-exp" revision="jb-devel" groups="kernel,asus,tf101" /> -->
 
   <!-- Vendors -->
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="cfx-exp" revision="jb-devel" groups="vendor,asus" />
   <project path="vendor/moto" name="vendor_moto" remote="cfx-exp" revision="jb-devel" groups="vendor,moto" />
   <project path="vendor/broadcom" name="vendor_broadcom" remote="cfx-exp" revision="jb-devel" groups="vendor,broadcom" />
   <project path="vendor/nvidia" name="vendor_nvidia" remote="cfx-exp" revision="jb-devel" groups="vendor,nvidia" />
