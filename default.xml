@@ -395,7 +395,7 @@
   </project>
   <project path="bionic" name="bionic" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="dalvik" name="dalvik" remote="cfx-exp" revision="jb-devel" />
-  <project path="development" name="development" remote="cfx-exp" revision="jb-devel" />
+  <project path="development" name="development" remote="cfx-exp" revision="jb-devel-release" />
   <project path="device/common" name="device_common" remote="cfx-exp" revision="jb-devel" groups="device" />
   <project path="device/htc/ace" name="device_htc_ace" remote="cfx-exp" revision="jb-devel" groups="device,htc,ace" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="cfx-exp" revision="jb-devel" groups="device,htc,m7" />
