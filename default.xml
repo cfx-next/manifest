@@ -61,16 +61,16 @@
   <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/astl" name="platform/external/astl" />
-  <project path="external/bison" name="platform/external/bison" />
+  <project path="external/bison" name="platform/external/bison" revision="master" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bouncycastle" name="platform/external/bouncycastle" />
+  <project path="external/bouncycastle" name="platform/external/bouncycastle" revision="master" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
-  <project path="external/dbus" name="platform/external/dbus" groups="pdk" />
+  <project path="external/dbus" name="platform/external/dbus" revision="master" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
   <project path="external/doclava" name="platform/external/doclava" />
