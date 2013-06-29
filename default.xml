@@ -58,7 +58,7 @@
   <project path="external/apache-harmony" name="platform/external/apache-harmony" revision="master" />
   <project path="external/apache-http" name="platform/external/apache-http" revision="master" />
   <project path="external/apache-qp" name="platform/external/apache-qp" revision="master" />
-  <project path="external/apache-xml" name="platform/external/apache-xml" revision="master" />
+  <project path="external/apache-xml" name="platform/external/apache-xml" />
   <project path="external/arduino" name="platform/external/arduino" />
   <project path="external/astl" name="platform/external/astl" />
   <project path="external/bison" name="platform/external/bison" revision="master" />
