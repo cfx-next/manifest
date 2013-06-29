@@ -113,7 +113,7 @@
   <project path="external/jsilver" name="platform/external/jsilver" />
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/kernel-headers" name="platform/external/kernel-headers" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
@@ -438,18 +438,18 @@
   <project path="frameworks/rs" name="frameworks_rs" remote="cfx-exp" revision="jb-devel-release" />
   <project path="frameworks/support" name="frameworks_support" remote="cfx-exp" revision="jb-devel-release" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
-  <project path="hardware/libhardware" name="hardware_libhardware" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="hardware/msm7k" name="hardware_msm7k" remote="cfx-exp" revision="jb-devel" />
+  <project path="hardware/libhardware" name="hardware_libhardware" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="hardware/msm7k" name="hardware_msm7k" remote="cfx-exp" revision="jb-devel-release" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="cfx-exp" revision="jb-devel-release" groups="qcom" />
   <project path="hardware/qcom/audio-legacy" name="hardware_qcom_audio-legacy" remote="cfx-exp" revision="jb-devel" groups="qcom" />
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="cfx-exp" revision="jb-devel-release" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="cfx-exp" revision="jb-devel-release" groups="qcom" />
-  <project path="hardware/qcom/display-legacy" name="hardware_qcom_display-legacy" remote="cfx-exp" revision="jb-devel" groups="qcom" />
-  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="cfx-exp" revision="jb-devel" groups="qcom,caf" />
-  <project path="hardware/qcom/media-legacy" name="hardware_qcom_media-legacy" remote="cfx-exp" revision="jb-devel" groups="qcom" />
+  <project path="hardware/qcom/display-legacy" name="hardware_qcom_display-legacy" remote="cfx-exp" revision="jb-devel-release" groups="qcom" />
+  <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="cfx-exp" revision="jb-devel-release" groups="qcom,caf" />
+  <project path="hardware/qcom/media-legacy" name="hardware_qcom_media-legacy" remote="cfx-exp" revision="jb-devel-release" groups="qcom" />
   <project path="hardware/ril" name="hardware_ril" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
-  <project path="kernel/htc/m7" name="kernel_htc_m7" remote="cfx-exp" revision="jb-devel" groups="kernel,htc,m7" />
+  <project path="kernel/htc/m7" name="kernel_htc_m7" remote="cfx-exp" revision="jb-devel-release" groups="kernel,htc,m7" />
   <project path="kernel/htc/msm7x30" name="kernel_htc_msm7x30" remote="cfx-exp" revision="jb-devel" groups="kernel,htc,ace" />
   <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel" />
