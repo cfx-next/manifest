@@ -152,7 +152,7 @@
   <project path="external/netperf" name="platform/external/netperf" />
   <project path="external/neven" name="platform/external/neven" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" revision="master" />
-  <project path="external/nist-sip" name="platform/external/nist-sip" "revision="master" />
+  <project path="external/nist-sip" name="platform/external/nist-sip" revision="master" />
   <project path="external/oauth" name="platform/external/oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" />
   <project path="external/okhttp" name="platform/external/okhttp" revision="master" />
