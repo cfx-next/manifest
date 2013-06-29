@@ -154,7 +154,7 @@
   <project path="external/nist-pkits" name="platform/external/nist-pkits" revision="master" />
   <project path="external/nist-sip" name="platform/external/nist-sip" revision="master" />
   <project path="external/oauth" name="platform/external/oauth" />
-  <project path="external/objenesis" name="platform/external/objenesis" />
+  <project path="external/objenesis" name="platform/external/objenesis" revision="master" />
   <project path="external/okhttp" name="platform/external/okhttp" revision="master" />
   <project path="external/opencv" name="platform/external/opencv" />
   <project path="external/openfst" name="platform/external/openfst" />
