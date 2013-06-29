@@ -235,7 +235,7 @@
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
+  <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" revision="master" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
@@ -391,8 +391,8 @@
   <project path="build" name="build" remote="cfx-exp" revision="jb-devel-release" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="bionic" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="cfx-exp" revision="jb-devel" groups="twrp" />
+  <project path="bionic" name="bionic" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="cfx-exp" revision="jb-devel-release" groups="twrp" />
   <project path="dalvik" name="dalvik" remote="cfx-exp" revision="jb-devel-release" />
   <project path="development" name="development" remote="cfx-exp" revision="jb-devel-release" />
   <project path="device/common" name="device_common" remote="cfx-exp" revision="jb-devel-release" groups="device" />
