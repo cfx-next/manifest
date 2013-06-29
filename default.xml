@@ -220,7 +220,7 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
+  <project path="libnativehelper" name="platform/libnativehelper" revision="master" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" />
@@ -393,51 +393,51 @@
   </project>
   <project path="bionic" name="bionic" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="bootable/recovery" name="bootable_recovery" remote="cfx-exp" revision="jb-devel" groups="twrp" />
-  <project path="dalvik" name="dalvik" remote="cfx-exp" revision="jb-devel" />
+  <project path="dalvik" name="dalvik" remote="cfx-exp" revision="jb-devel-release" />
   <project path="development" name="development" remote="cfx-exp" revision="jb-devel-release" />
-  <project path="device/common" name="device_common" remote="cfx-exp" revision="jb-devel" groups="device" />
-  <project path="device/htc/ace" name="device_htc_ace" remote="cfx-exp" revision="jb-devel" groups="device,htc,ace" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="cfx-exp" revision="jb-devel" groups="device,htc,m7" />
-  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="cfx-exp" revision="jb-devel" groups="device,htc,m7" />
-  <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="cfx-exp" revision="jb-devel" groups="device,htc" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="cfx-exp" revision="jb-devel" groups="device,htc" />
-  <project path="device/htc/m7tmo" name="device_htc_m7tmo" remote="cfx-exp" revision="jb-devel" groups="device,htc,m7" />
-  <project path="external/android-mock" name="external_android-mock" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/angle" name="external_angle" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="external/busybox" name="external_busybox" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/chromium" name="external_chromium" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/clang" name="external_clang" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/jpeg" name="external_jpeg" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/koush/Superuser" name="external_koush_superuser" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/koush/Widgets" name="external_koush_widgets" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/libpng" name="external_libpng" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/llvm" name="external_llvm" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/openssh" name="external_openssh" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/ping" name="external_ping" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/ping6" name="external_ping6" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/sepolicy" name="external_sepolicy" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/skia" name="external_skia" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/v8" name="external_v8" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/webkit" name="external_webkit" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="external/yaffs2" name="external_yaffs2" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="external/zlib" name="external_zlib" remote="cfx-exp" revision="jb-devel" />
+  <project path="device/common" name="device_common" remote="cfx-exp" revision="jb-devel-release" groups="device" />
+  <project path="device/htc/ace" name="device_htc_ace" remote="cfx-exp" revision="jb-devel-release" groups="device,htc,ace" />
+  <project path="device/htc/m7-common" name="device_htc_m7-common" remote="cfx-exp" revision="jb-devel-release" groups="device,htc,m7" />
+  <project path="device/htc/m7spr" name="device_htc_m7spr" remote="cfx-exp" revision="jb-devel-release" groups="device,htc,m7" />
+  <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="cfx-exp" revision="jb-devel-release" groups="device,htc" />
+  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="cfx-exp" revision="jb-devel-release" groups="device,htc" />
+  <project path="device/htc/m7tmo" name="device_htc_m7tmo" remote="cfx-exp" revision="jb-devel-release" groups="device,htc,m7" />
+  <project path="external/android-mock" name="external_android-mock" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/angle" name="external_angle" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="external/busybox" name="external_busybox" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/chromium" name="external_chromium" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/clang" name="external_clang" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/jpeg" name="external_jpeg" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/koush/Superuser" name="external_koush_superuser" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/koush/Widgets" name="external_koush_widgets" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/libpng" name="external_libpng" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/llvm" name="external_llvm" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/openssh" name="external_openssh" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/ping" name="external_ping" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/ping6" name="external_ping6" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/sepolicy" name="external_sepolicy" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/skia" name="external_skia" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/v8" name="external_v8" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/webkit" name="external_webkit" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="external/yaffs2" name="external_yaffs2" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="external/zlib" name="external_zlib" remote="cfx-exp" revision="jb-devel-release" />
   <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="cfx-exp" revision="jb-devel-release" />
-  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="cfx-exp" revision="jb-devel" groups="pdk" />
-  <project path="frameworks/ex" name="frameworks_ex" remote="cfx-exp" revision="jb-devel" />
+  <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="frameworks/ex" name="frameworks_ex" remote="cfx-exp" revision="jb-devel-release" />
   <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cfx-exp" revision="jb-devel-release" />
-  <project path="frameworks/rs" name="frameworks_rs" remote="cfx-exp" revision="jb-devel" />
-  <project path="frameworks/support" name="frameworks_support" remote="cfx-exp" revision="jb-devel" />
-  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="cfx-exp" revision="jb-devel" groups="pdk" />
+  <project path="frameworks/rs" name="frameworks_rs" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="frameworks/support" name="frameworks_support" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="hardware/msm7k" name="hardware_msm7k" remote="cfx-exp" revision="jb-devel" />
