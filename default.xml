@@ -208,7 +208,7 @@
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/volley" name="platform/frameworks/volley" revision="master" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/akm" name="platform/hardware/akm" />
+  <project path="hardware/akm" name="platform/hardware/akm" revision="master" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
