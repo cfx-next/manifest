@@ -28,7 +28,6 @@
   <project path="abi/cpp" name="platform/abi/cpp" revision="master" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="cfx-exp" revision="jb-devel" groups="twrp" />
   <project path="cts" name="platform/cts" />
   <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
@@ -393,6 +392,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="bionic" name="bionic" remote="cfx-exp" revision="jb-devel" groups="pdk" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="cfx-exp" revision="jb-devel" groups="twrp" />
   <project path="dalvik" name="dalvik" remote="cfx-exp" revision="jb-devel" />
   <project path="development" name="development" remote="cfx-exp" revision="jb-devel-release" />
   <project path="device/common" name="device_common" remote="cfx-exp" revision="jb-devel" groups="device" />
