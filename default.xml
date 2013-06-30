@@ -28,8 +28,8 @@
   <project path="abi/cpp" name="platform/abi/cpp" revision="master" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="cts" name="platform/cts" revision="master" />
-  <project path="device/asus/grouper" name="device/asus/grouper" groups="device,grouper" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="cfx-exp" revision="jb-devel" groups="twrp" />
+  <project path="cts" name="platform/cts" />
   <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" groups="pdk" />
@@ -42,11 +42,7 @@
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
   <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/maguro" name="device/samsung/maguro" groups="device,tuna" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
-  <project path="device/samsung/toro" name="device/samsung/toro" groups="device,tuna" />
-  <project path="device/samsung/toroplus" name="device/samsung/toroplus" groups="device,tuna" />
-  <project path="device/samsung/tuna" name="device/samsung/tuna" groups="device,tuna" />
   <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" revision="master" groups="device" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -217,7 +213,7 @@
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" revision="master" groups="omap4-aah" />
-  <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" />
+  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="cfx-exp" revision="master" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libnativehelper" name="platform/libnativehelper" revision="master" groups="pdk-java" />
@@ -329,16 +325,29 @@
   <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
   <project path="device/asus/tf101" name="device_asus_tf101" remote="cfx-exp" revision="jb-devel" groups="device,asus,tf101" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="cfx-exp" revision="jb-devel" groups="device,asus,grouper" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="cfx-exp" revision="jb-devel" groups="device,tuna" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="cfx-exp" revision="jb-devel" groups="device,tuna" />
+  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="cfx-exp" revision="jb-devel" groups="device,tuna" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="cfx-exp" revision="jb-devel" groups="device,tuna" />
 
   <!-- Kernels -->
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel" groups="kernel,moto,xoom" />
   <project path="kernel/asus/tf101" name="kernel_asus_tf101" remote="cfx-exp" revision="jb-devel" groups="kernel,asus,tf101" />
+  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="cfx-exp" revision="jb-devel" groups="kernel,samsung,tuna" />
+  <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel" groups="kernel,samsung,manta" />
+  <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="cfx-exp" revision="jb-devel" groups="kernel,asus,grouper" />
 
   <!-- Vendors -->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="cfx-exp" revision="jb-devel" groups="vendor,asus" />
   <project path="vendor/moto" name="vendor_moto" remote="cfx-exp" revision="jb-devel" groups="vendor,moto" />
   <project path="vendor/broadcom" name="vendor_broadcom" remote="cfx-exp" revision="jb-devel" groups="vendor,broadcom" />
   <project path="vendor/nvidia" name="vendor_nvidia" remote="cfx-exp" revision="jb-devel" groups="vendor,nvidia" />
+  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="cfx-exp" revision="jb-devel" groups="vendor,imgtec" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="cfx-exp" revision="jb-devel" groups="vendor,widevine" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="cfx-exp" revision="jb-devel" groups="vendor,invensense" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="cfx-exp" revision="jb-devel" groups="vendor,nxp" />
+  <project path="vendor/qcom/mako" name="vendor_qcom_mako" remote="cfx-exp" revision="jb-devel" groups="vendor,qcom" />
 
   <!-- Packages -->
   <project path="packages/apps/CDMATools" name="bigrushdog/cdma_tools" remote="github" revision="master" />
