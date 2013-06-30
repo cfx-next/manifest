@@ -212,7 +212,7 @@
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" revision="master" groups="omap4-aah" />
-  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="cfx-exp" revision="master" groups="omap4" />
+  <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="cfx-exp" revision="jb-devel" groups="omap4" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
   <project path="libnativehelper" name="platform/libnativehelper" revision="master" groups="pdk-java" />
