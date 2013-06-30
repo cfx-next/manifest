@@ -305,7 +305,6 @@
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/security" name="platform/system/security" revision="master" groups="pdk" />
-  <project path="system/vold" name="platform/system/vold" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
@@ -473,6 +472,7 @@
   <project path="sdk" name="sdk" remote="cfx-exp" revision="jb-devel-release" />
   <project path="system/core" name="system_core" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="system/extras" name="system_extras" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="system/vold" name="system_vold" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="vendor/cfx" name="vendor_cfx" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx-exp" revision="jb-devel" groups="vendor,ace" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx-exp" revision="jb-devel" groups="vendor,qcom" />
