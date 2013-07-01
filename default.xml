@@ -22,7 +22,7 @@
 
   <default revision="jb-mr1.1-release"
            remote="aosp"
-           sync-j="16" />
+           sync-j="4" />
 
   <!-- Android Open Source Project -->
   <project path="abi/cpp" name="platform/abi/cpp" revision="master" groups="pdk" />
