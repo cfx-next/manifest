@@ -480,4 +480,14 @@
   <project path="vendor/tmobile/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
   <project path="vendor/tmobile/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
 
+
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-10.1" />
+  <project path="device/samsung/msm8960-common" name="codefireXperiment/device_samsung_msm8960-common" remote="github" revision="jb-devel" />
+  <project path="device/samsung/jf-common" name="codefireXperiment/device_samsung_jf-common" remote="github" revision="jb-devel" />
+  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-10.1" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.1" />
+  <project path="device/samsung/jfltexx" name="codefireXperiment/device_samsung_jfltexx" remote="github" revision="jb-devel" />
+  <project path="vendor/samsung/jfltexx" name="codefireXperiment/vendor_samsung_jfltexx" remote="github" revision="jb-devel" />
+  <project path="vendor/samsung/jf-common" name="codefireXperiment/vendor_samsung_jf-common" remote="github" revision="jb-devel" />
+ 
 </manifest>
