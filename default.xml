@@ -38,7 +38,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" revision="master" groups="device" />
@@ -330,6 +329,7 @@
   <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="cfx-exp" revision="jb-devel" groups="kernel,samsung,tuna" />
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel" groups="kernel,samsung,manta" />
   <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="cfx-exp" revision="jb-devel" groups="kernel,asus,grouper" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cfx-exp" revision="jb-devel-release" groups="kernel,lge,mako" />
 
   <!-- Vendors -->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="cfx-exp" revision="jb-devel" groups="vendor,asus" />
