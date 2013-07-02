@@ -38,7 +38,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/lge/mako" name="device/lge/mako" groups="device,mako" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" />
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" revision="master" groups="device" />
@@ -330,6 +329,7 @@
   <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="cfx-exp" revision="jb-devel" groups="kernel,samsung,tuna" />
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel" groups="kernel,samsung,manta" />
   <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="cfx-exp" revision="jb-devel" groups="kernel,asus,grouper" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cfx-exp" revision="jb-devel-release" groups="kernel,lge,mako" />
 
   <!-- Vendors -->
   <project path="vendor/asus" name="proprietary_vendor_asus" remote="cfx-exp" revision="jb-devel" groups="vendor,asus" />
@@ -354,15 +354,15 @@
   <!-- ##### OpenSEMC ##### -->
   <!-- Devices -->
   <project path="device/sony/common" name="OpenSEMC/android_device_sony_common" remote="github" revision="cm-10.1" groups="device,sony,common"/>
-  <project path="device/sony/qcom-common" name="OpenSEMC/android_device_sony_qcom-common" remote="github" revision="cm-10.1" groups="device,sony,qcom-common"/>
+  <project path="device/sony/qcom-common-fuji" name="OpenSEMC/android_device_sony_qcom-common" remote="github" revision="cm-10.1" groups="device,sony,qcom-common"/>
   
   <project path="device/sony/fuji-common" name="OpenSEMC/android_device_sony_fuji-common" remote="github" revision="cm-10.1" groups="device,sony,fuji-common"/>
   
-  <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="jb-devel" groups="device,sony,nozomi"/>
-  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="jb-devel" groups="device,sony,hikari"/>
+  <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="cfx" groups="device,sony,nozomi"/>
+  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="cfx" groups="device,sony,hikari"/>
   
   <!-- Kernels -->
-  <!-- <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="opensemc-jellybean" groups="kernel"/> -->
+  <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="cm-10.1-fuji" groups="kernel"/>
   
   <!-- Hardware -->
   <project path="hardware/qcom/audio-caf" name="OpenSEMC/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" groups="qcom" />
@@ -379,6 +379,7 @@
   <!-- ##### end OpenSEMC ##### -->
 
   <!-- CyanogenMod -->
+  <project path="device/sony/qcom-common-fuji" name="CyanogenMod/android_device_sony_qcom-common" remote="github" revision="cm-10.1" groups="device,sony,qcom-common"/>
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.1" groups="qcom" />
 
   <!-- The Muppets -->
