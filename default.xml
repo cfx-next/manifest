@@ -354,15 +354,15 @@
   <!-- ##### OpenSEMC ##### -->
   <!-- Devices -->
   <project path="device/sony/common" name="OpenSEMC/android_device_sony_common" remote="github" revision="cm-10.1" groups="device,sony,common"/>
-  <project path="device/sony/qcom-common" name="OpenSEMC/android_device_sony_qcom-common" remote="github" revision="cm-10.1" groups="device,sony,qcom-common"/>
+  <project path="device/sony/qcom-common-fuji" name="OpenSEMC/android_device_sony_qcom-common" remote="github" revision="cm-10.1" groups="device,sony,qcom-common"/>
   
   <project path="device/sony/fuji-common" name="OpenSEMC/android_device_sony_fuji-common" remote="github" revision="cm-10.1" groups="device,sony,fuji-common"/>
   
-  <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="jb-devel" groups="device,sony,nozomi"/>
-  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="jb-devel" groups="device,sony,hikari"/>
+  <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="cfx" groups="device,sony,nozomi"/>
+  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="cfx" groups="device,sony,hikari"/>
   
   <!-- Kernels -->
-  <!-- <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="opensemc-jellybean" groups="kernel"/> -->
+  <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="cm-10.1-fuji" groups="kernel"/>
   
   <!-- Hardware -->
   <project path="hardware/qcom/audio-caf" name="OpenSEMC/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" groups="qcom" />
@@ -379,6 +379,7 @@
   <!-- ##### end OpenSEMC ##### -->
 
   <!-- CyanogenMod -->
+  <project path="device/sony/qcom-common-fuji" name="CyanogenMod/android_device_sony_qcom-common" remote="github" revision="cm-10.1" groups="device,sony,qcom-common"/>
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.1" groups="qcom" />
 
   <!-- The Muppets -->
