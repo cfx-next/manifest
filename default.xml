@@ -456,7 +456,7 @@
   <project path="hardware/ril" name="hardware_ril" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="kernel/htc/m7" name="kernel_htc_m7" remote="cfx-exp" revision="jb-devel-release" groups="kernel,htc,m7" />
   <project path="kernel/htc/msm7x30" name="kernel_htc_msm7x30" remote="cfx-exp" revision="jb-devel" groups="kernel,htc,ace" />
-  <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel" />
+  <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/apps/0xbench" name="packages_apps_0xbench" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/apps/Camera" name="packages_apps_camera" remote="cfx-exp" revision="jb-devel-release" />
