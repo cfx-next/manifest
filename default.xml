@@ -460,6 +460,7 @@
   <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/apps/0xbench" name="packages_apps_0xbench" remote="cfx-exp" revision="jb-devel" />
+  <project path="packages/apps/Apollo" name="packages_apps_apollo" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/apps/Camera" name="packages_apps_camera" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" remote="cfx-exp" revision="jb-devel-release" />
   <project path="packages/apps/Gallery2" name="packages_apps_gallery2" remote="cfx-exp" revision="jb-devel-release" />
