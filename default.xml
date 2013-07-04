@@ -379,7 +379,7 @@
   <!-- ##### end OpenSEMC ##### -->
 
   <!-- CyanogenMod -->
-  <project path="device/sony/qcom-common-fuji" name="CyanogenMod/android_device_sony_qcom-common" remote="github" revision="cm-10.1" groups="device,sony,qcom-common"/>
+  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="github" revision="cm-10.1" groups="device,sony,qcom-common"/>
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.1" groups="qcom" />
 
   <!-- The Muppets -->
