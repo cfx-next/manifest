@@ -161,7 +161,6 @@
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
   <project path="external/speex" name="platform/external/speex" groups="pdk" />
-  <project path="external/srec" name="platform/external/srec" />
   <project path="external/srtp" name="platform/external/srtp" />
   <project path="external/stlport" name="platform/external/stlport" revision="master" groups="pdk" />
   <project path="external/strace" name="platform/external/strace" />
@@ -429,6 +428,7 @@
   <project path="external/sepolicy" name="external_sepolicy" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/skia" name="external_skia" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/sqlite" name="external_sqlite" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="external/srec" name="external_srec" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/v8" name="external_v8" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/webkit" name="external_webkit" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
