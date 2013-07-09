@@ -43,7 +43,6 @@
   <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" revision="master" groups="device" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -383,6 +382,20 @@
   <!-- The Muppets -->
   <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-10.1" groups="vendor,htc,muppets" />
 
+  <!-- codefireX-Toolchain -->
+  <project path="external/codefirex/src/binutils" name="toolchain/binutils" revision="master" />
+  <project path="external/codefirex/src/build" name="toolchain_build" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/cloog" name="toolchain_cloog" remote ="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/expat" name="toolchain/expat" revision="master" />
+  <project path="external/codefirex/src/gcc/gcc-4.8" name="toolchain_gcc-4.8" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/gcc/gcc-4.9" name="toolchain_gcc-4.9" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/gdb" name="toolchain_gdb" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/gmp" name="toolchain_gmp" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/isl" name="toolchain/isl" revision="master" />
+  <project path="external/codefirex/src/mpc" name="toolchain_mpc" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/mpfr" name="toolchain_mpfr" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/ppl" name="Mustaavalkosta/toolchain_ppl" remote="github" revision="master" />
+
   <!-- The codefireXperiment -->
   <project path="build" name="build" remote="cfx-exp" revision="jb-devel-release" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -399,11 +412,13 @@
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="cfx-exp" revision="jb-devel-release" groups="device,htc" />
   <project path="device/htc/m7tmo" name="device_htc_m7tmo" remote="cfx-exp" revision="jb-devel-release" groups="device,htc,m7" />
   <project path="external/android-mock" name="external_android-mock" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/aac" name="external_aac" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/angle" name="external_angle" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/bluetooth/bluedroid" name="external_bluetooth_bluedroid" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/busybox" name="external_busybox" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/chromium" name="external_chromium" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/clang" name="external_clang" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/codefirex" name="external_codefirex" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel-release" />
