@@ -383,7 +383,7 @@
   <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-10.1" groups="vendor,htc,muppets" />
 
   <!-- codefireX-Toolchain -->
-  <project path="external/codefirex/src/binutils" name="toolchain/binutils" revision="master" />
+  <project path="external/codefirex/src/binutils/binutils-upstream" name="toolchain_binutils-upstream" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/build" name="toolchain_build" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/cloog" name="toolchain_cloog" remote ="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/expat" name="toolchain/expat" revision="master" />
