@@ -422,8 +422,8 @@
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/koush/Superuser" name="external_koush_superuser" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/koush/Widgets" name="external_koush_widgets" remote="cfx-exp" revision="jb-devel-release" />
-  <project path="external/libnfc-nci" name="external_libnfc-nci" remote="cfx-exp" revision="jb-devel-release groups="pdk" />
-  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="cfx-exp" revision="jb-devel-release groups="nxp_nfc" />
+  <project path="external/libnfc-nci" name="external_libnfc-nci" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="cfx-exp" revision="jb-devel-release" groups="nxp_nfc" />
   <project path="external/libpng" name="external_libpng" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/llvm" name="external_llvm" remote="cfx-exp" revision="jb-devel-release" />
