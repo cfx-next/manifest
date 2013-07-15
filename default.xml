@@ -333,6 +333,10 @@
   <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="cfx-exp" revision="jb-devel" groups="vendor,invensense" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="cfx-exp" revision="jb-devel" groups="vendor,nxp" />
   <project path="vendor/qcom/mako" name="vendor_qcom_mako" remote="cfx-exp" revision="jb-devel" groups="vendor,qcom" />
+  <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" remote="cfx-exp" revision="jb-devel-release" groups="vendor,samsung" />
+  <project path="vendor/samsung/maguro" name="vendor_samsung_maguro" remote="cfx-exp" revision="jb-devel-release" groups="vendor,samsung" />
+  <project path="vendor/samsung/toro" name="vendor_samsung_toro" remote="cfx-exp" revision="jb-devel-release" groups="vendor,samsung" />
+  <project path="vendor/samsung/toroplus" name="vendor_samsung_toroplus" remote="cfx-exp" revision="jb-devel-release" groups="vendor,samsung" />
 
   <!-- Packages -->
   <project path="packages/apps/CDMATools" name="bigrushdog/cdma_tools" remote="github" revision="master" />
