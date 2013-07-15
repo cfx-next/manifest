@@ -358,7 +358,7 @@
   <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="cfx" groups="device,sony,hikari"/>
   
   <!-- Kernels -->
-  <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="cm-10.1-fuji" groups="kernel"/>
+  <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="cm-10.1-chocolate" groups="kernel"/>
   
   <!-- Hardware -->
   <project path="hardware/qcom/audio-caf" name="OpenSEMC/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" groups="qcom" />
