@@ -59,7 +59,6 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
   <project path="external/cibu-fonts" name="platform/external/cibu-fonts" />
-  <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" />
   <project path="external/dbus" name="platform/external/dbus" revision="master" groups="pdk" />
   <project path="external/dexmaker" name="platform/external/dexmaker" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" />
@@ -77,7 +76,6 @@
   <project path="external/fdlibm" name="platform/external/fdlibm" />
   <project path="external/flac" name="platform/external/flac" groups="pdk" />
   <project path="external/freetype" name="platform/external/freetype" groups="pdk" />
-  <project path="external/fsck_msdos" name="platform/external/fsck_msdos" />
   <project path="external/ganymed-ssh2" name="platform/external/ganymed-ssh2" />
   <project path="external/gcc-demangle" name="platform/external/gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="platform/external/genext2fs" />
@@ -418,9 +416,11 @@
   <project path="external/chromium" name="external_chromium" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/clang" name="external_clang" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/codefirex" name="external_codefirex" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/compiler-rt" name="external_compiler-rt" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel-release" />
+  <project path="external/fsck_msdos" name="external_fsck_msdos" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/jpeg" name="external_jpeg" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/koush/Superuser" name="external_koush_superuser" remote="cfx-exp" revision="jb-devel-release" />
