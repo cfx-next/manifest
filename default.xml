@@ -305,11 +305,11 @@
   <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel-release" groups="device,moto,xoom" />
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel-release" groups="device,moto,xoom" />
   <project path="device/asus/tf101" name="device_asus_tf101" remote="cfx-exp" revision="jb-devel" groups="device,asus,tf101" />
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="cfx-exp" revision="jb-devel" groups="device,asus,grouper" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="cfx-exp" revision="jb-devel" groups="device,tuna" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="cfx-exp" revision="jb-devel" groups="device,tuna" />
-  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="cfx-exp" revision="jb-devel" groups="device,tuna" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="cfx-exp" revision="jb-devel" groups="device,tuna" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="cfx-exp" revision="jb-devel-release" groups="device,asus,grouper" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="cfx-exp" revision="jb-devel-release" groups="device,tuna" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="cfx-exp" revision="jb-devel-release" groups="device,tuna" />
+  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="cfx-exp" revision="jb-devel-release" groups="device,tuna" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="cfx-exp" revision="jb-devel=release" groups="device,tuna" />
 
   <!-- Kernels -->
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel" groups="kernel,moto,xoom" />
