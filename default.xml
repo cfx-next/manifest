@@ -38,7 +38,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
-  <project path="device/samsung/manta" name="device/samsung/manta" groups="device,manta" />
   <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" revision="master" groups="device" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" />
@@ -407,6 +406,7 @@
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="cfx-exp" revision="jb-devel-release" groups="device,htc" />
   <project path="device/htc/m7tmo" name="device_htc_m7tmo" remote="cfx-exp" revision="jb-devel-release" groups="device,htc,m7" />
   <project path="device/lge/mako" name="device_lge_mako" remote="cfx-exp" revision="jb-devel-release" groups="device,mako" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="cfx-exp" revision="jb-devel-release" groups="device,manta" />
   <project path="external/android-mock" name="external_android-mock" remote="cfx-exp" revision="jb-devel-release" />
   <project path="external/aac" name="external_aac" remote="cfx-exp" revision="jb-devel-release" groups="pdk" />
   <project path="external/angle" name="external_angle" remote="cfx-exp" revision="jb-devel-release" />
@@ -495,6 +495,7 @@
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx-exp" revision="jb-devel" groups="vendor,ace" />
   <project path="vendor/lge/mako" name="vendor_lge_mako" remote="cfx-exp" revision="jb-devel-release" groups="vendor,mako" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx-exp" revision="jb-devel" groups="vendor,qcom" />
+  <project path="vendor/samsung/manta" name="vendor_samsung_manta" remote="cfx-exp" revision="jb-devel-release" groups="vendor,samsung" />
   <project path="vendor/tmobile/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
   <project path="vendor/tmobile/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
   <project path="vendor/tmobile/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cfx-exp" revision="jb-devel-release" groups="vendor,tmobile" />
