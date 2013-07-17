@@ -300,10 +300,10 @@
 
   <!-- ***** TeamEos ***** -->
   <!-- Devices -->
-  <project path="device/moto/wingray" name="device_moto_wingray" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
-  <project path="device/moto/stingray" name="device_moto_stingray" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
-  <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
-  <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel" groups="device,moto,xoom" />
+  <project path="device/moto/wingray" name="device_moto_wingray" remote="cfx-exp" revision="jb-devel-release" groups="device,moto,xoom" />
+  <project path="device/moto/stingray" name="device_moto_stingray" remote="cfx-exp" revision="jb-devel-release" groups="device,moto,xoom" />
+  <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel-release" groups="device,moto,xoom" />
+  <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel-release" groups="device,moto,xoom" />
   <project path="device/asus/tf101" name="device_asus_tf101" remote="cfx-exp" revision="jb-devel" groups="device,asus,tf101" />
   <project path="device/asus/grouper" name="device_asus_grouper" remote="cfx-exp" revision="jb-devel" groups="device,asus,grouper" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="cfx-exp" revision="jb-devel" groups="device,tuna" />
