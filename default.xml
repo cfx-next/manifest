@@ -312,11 +312,11 @@
   <project path="device/samsung/tuna" name="device_samsung_tuna" remote="cfx-exp" revision="jb-devel-release" groups="device,tuna" />
 
   <!-- Kernels -->
-  <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel" groups="kernel,moto,xoom" />
+  <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel-release" groups="kernel,moto,xoom" />
   <project path="kernel/asus/tf101" name="kernel_asus_tf101" remote="cfx-exp" revision="jb-devel" groups="kernel,asus,tf101" />
-  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="cfx-exp" revision="jb-devel" groups="kernel,samsung,tuna" />
-  <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel" groups="kernel,samsung,manta" />
-  <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="cfx-exp" revision="jb-devel" groups="kernel,asus,grouper" />
+  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="cfx-exp" revision="jb-devel-release" groups="kernel,samsung,tuna" />
+  <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel-release" groups="kernel,samsung,manta" />
+  <project path="kernel/asus/grouper" name="kernel_asus_grouper" remote="cfx-exp" revision="jb-devel-release" groups="kernel,asus,grouper" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cfx-exp" revision="jb-devel-release" groups="kernel,lge,mako" />
 
   <!-- Vendors -->
