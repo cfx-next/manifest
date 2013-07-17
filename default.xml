@@ -309,7 +309,7 @@
   <project path="device/samsung/maguro" name="device_samsung_maguro" remote="cfx-exp" revision="jb-devel-release" groups="device,tuna" />
   <project path="device/samsung/toro" name="device_samsung_toro" remote="cfx-exp" revision="jb-devel-release" groups="device,tuna" />
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="cfx-exp" revision="jb-devel-release" groups="device,tuna" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="cfx-exp" revision="jb-devel=release" groups="device,tuna" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="cfx-exp" revision="jb-devel-release" groups="device,tuna" />
 
   <!-- Kernels -->
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel" groups="kernel,moto,xoom" />
