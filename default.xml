@@ -429,8 +429,6 @@
   <project path="external/openssh" name="external_openssh" remote="cfx-exp" revision="jb-devel" />
   <project path="external/openssl" name="external_openssl" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/ping" name="external_ping" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/ping6" name="external_ping6" remote="cfx-exp" revision="jb-devel" />
   <project path="external/sepolicy" name="external_sepolicy" remote="cfx-exp" revision="jb-devel" />
   <project path="external/skia" name="external_skia" remote="cfx-exp" revision="jb-devel" />
   <project path="external/sqlite" name="external_sqlite" remote="cfx-exp" revision="jb-devel" groups="pdk" />
