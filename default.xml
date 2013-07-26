@@ -220,6 +220,7 @@
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" />
+  <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="packages_apps_Deskclock" remote="cfx-exp" revision="jb-devel" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
