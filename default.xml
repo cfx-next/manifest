@@ -451,6 +451,8 @@
   <project path="external/fsck_msdos" name="external_fsck_msdos" remote="cfx-exp" revision="jb-devel" />
   <project path="external/jpeg" name="external_jpeg" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/koush/androidasync" name="external_koush_androidasync" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/koush/ion" name="external_koush_ion" remote="cfx-exp" revision="jb-devel" />
   <project path="external/koush/Superuser" name="external_koush_superuser" remote="cfx-exp" revision="jb-devel" />
   <project path="external/koush/Widgets" name="external_koush_widgets" remote="cfx-exp" revision="jb-devel" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="cfx-exp" revision="jb-devel" groups="pdk" />
