@@ -449,6 +449,7 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel" />
   <project path="external/fsck_msdos" name="external_fsck_msdos" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/gson" name="external_gson" remote="cfx-exp" revision="jb-devel" />
   <project path="external/jpeg" name="external_jpeg" remote="cfx-exp" revision="jb-devel" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel" />
   <project path="external/koush/androidasync" name="external_koush_androidasync" remote="cfx-exp" revision="jb-devel" />
