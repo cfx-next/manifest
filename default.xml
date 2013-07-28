@@ -366,6 +366,7 @@
 
   <!-- Packages -->
   <project path="packages/apps/CDMATools" name="bigrushdog/cdma_tools" remote="github" revision="master" />
+  <project path="packages/apps/KernelControls" name="bigrushdog/kernel_controls" remote="github" revision="jb-devel" />
 
   <!-- External -->
   <project path="external/iw" name="external_iw" remote="cfx-exp" revision="jb-devel" />
