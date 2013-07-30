@@ -412,6 +412,7 @@
   <project path="external/codefirex/src/gdb" name="toolchain_gdb" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/gmp" name="toolchain_gmp" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/isl" name="toolchain/isl" revision="master" />
+  <project path="external/codefirex/src/isl/isl-upstream" name="toolchain_isl-upstream" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/mpc" name="toolchain_mpc" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/mpfr" name="toolchain_mpfr" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/ppl" name="Mustaavalkosta/toolchain_ppl" remote="github" revision="master" />
