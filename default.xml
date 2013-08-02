@@ -306,8 +306,8 @@
   <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" revision="master" />
   <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" revision="master" />
   <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" revision="master" />
-  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
-  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" />
+  <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" revision="master" groups="darwin" />
+  <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" revision="master" groups="linux" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="master" />
