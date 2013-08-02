@@ -303,19 +303,19 @@
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.6" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/i686-linux-android-4.7" groups="pdk,linux,x86" />
   <project path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.7" revision="master" groups="pdk,linux,x86" />
-  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" />
-  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" />
-  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" />
+  <project path="prebuilts/gradle-plugin" name="platform/prebuilts/gradle-plugin" revision="master" />
+  <project path="prebuilts/maven_repo/android" name="platform/prebuilts/maven_repo/android" revision="master" />
+  <project path="prebuilts/ndk" name="platform/prebuilts/ndk" groups="pdk" revision="master" />
   <project path="prebuilts/python/darwin-x86/2.7.5" name="platform/prebuilts/python/darwin-x86/2.7.5" groups="darwin" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="platform/prebuilts/python/linux-x86/2.7.5" groups="linux" />
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" />
+  <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" revision="master" />
   <project path="system/bluetooth" name="platform/system/bluetooth" groups="pdk" />
   <project path="system/media" name="platform/system/media" groups="pdk" />
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" />
-  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" />
+  <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" revision="master" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" />
   <project path="tools/build" name="platform/tools/build" groups="notdefault,tools" />
   <project path="tools/emulator" name="platform/tools/emulator" groups="notdefault,tools" />
@@ -323,7 +323,7 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="tools" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" />
   <project path="tools/motodev" name="platform/tools/motodev" groups="notdefault,motodev" />
-  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
+  <project path="tools/studio/cloud" name="platform/tools/studio/cloud" revision="master" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <!-- ***** TeamEos ***** -->
