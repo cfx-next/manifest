@@ -448,7 +448,6 @@
   <project path="external/fsck_msdos" name="external_fsck_msdos" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/gson" name="external_gson" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/icu4c" name="external_icu4c" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
-  <project path="external/iputils" name="external_iputils" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/jpeg" name="external_jpeg" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/koush/androidasync" name="external_koush_androidasync" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -464,6 +463,8 @@
   <project path="external/openssh" name="external_openssh" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/openssl" name="external_openssl" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="external/ping" name="external_ping" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="external/ping6" name="external_ping6" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/sepolicy" name="external_sepolicy" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/skia" name="external_skia" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/sqlite" name="external_sqlite" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
