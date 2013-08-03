@@ -28,6 +28,10 @@
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
+  <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
+  <project path="device/asus/flo" name="device/asus/flo" groups="device,flo" />
+  <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" />
+  <project path="device/asus/tilapia" name="device/asus/tilapia" groups="device,grouper" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" />
   <project path="device/generic/goldfish" name="device/generic/goldfish" groups="pdk" />
@@ -39,6 +43,9 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/sample" name="device/sample" groups="pdk" />
+  <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" groups="device" />
+  <project path="device/ti/panda" name="device/ti/panda" groups="device" />
+  <project path="docs/source.android.com" name="platform/docs/source.android.com" />
   <project path="external/android-clat" name="platform/external/android-clat" />
   <project path="external/ant-glob" name="platform/external/ant-glob" />
   <project path="external/antlr" name="platform/external/antlr" />
@@ -199,6 +206,11 @@
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
+  <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" revision="master" groups="omap4-aah" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="kernel/asus/grouper" name="kernel/tegra" revision="android-tegra3-grouper-3.1-jb-mr2" groups="kernel,asus,grouper" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -255,12 +267,32 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" groups="pdk" />
+  <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="pdk,darwin" />
+  <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="pdk,darwin" />
+  <project path="prebuilts/clang/darwin-x86/arm/3.3" name="platform/prebuilts/clang/darwin-x86/arm/3.3" revision="master" groups="darwin,arm" />
+  <project path="prebuilts/clang/darwin-x86/host/3.3" name="platform/prebuilts/clang/darwin-x86/host/3.3" revision="master" groups="darwin" />
+  <project path="prebuilts/clang/darwin-x86/mips/3.3" name="platform/prebuilts/clang/darwin-x86/mips/3.3" revision="master" groups="darwin,mips" />
+  <project path="prebuilts/clang/darwin-x86/x86/3.3" name="platform/prebuilts/clang/darwin-x86/x86/3.3" revision="master" groups="darwin,x86" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/3.2" name="platform/prebuilts/clang/linux-x86/3.2" groups="pdk,linux" />
   <project path="prebuilts/clang/linux-x86/arm/3.3" name="platform/prebuilts/clang/linux-x86/arm/3.3" revision="master" groups="linux,arm" />
   <project path="prebuilts/clang/linux-x86/host/3.3" name="platform/prebuilts/clang/linux-x86/host/3.3" revision="master" groups="linux" />
   <project path="prebuilts/clang/linux-x86/mips/3.3" name="platform/prebuilts/clang/linux-x86/mips/3.3" revision="master" groups="linux,mips" />
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="platform/prebuilts/clang/linux-x86/x86/3.3" revision="master" groups="linux,x86" />
+  <project path="prebuilts/devtools" name="platform/prebuilts/devtools" />
+  <project path="prebuilts/eclipse" name="platform/prebuilts/eclipse" groups="pdk" />
+  <project path="prebuilts/eclipse-build-deps" name="platform/prebuilts/eclipse-build-deps" groups="notdefault,eclipse" />
+  <project path="prebuilts/eclipse-build-deps-sources" name="platform/prebuilts/eclipse-build-deps-sources" groups="notdefault,eclipse" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.6" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.7" groups="pdk,darwin,arm" />
+  <project path="prebuilts/gcc/darwin-x86/host/headers" name="platform/prebuilts/gcc/darwin-x86/host/headers" groups="pdk,darwin" />
+  <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.6" groups="pdk,darwin,mips" />
+  <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" revision="master" groups="pdk,darwin,mips" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="pdk,darwin,x86" />
+  <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6-aosp" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7-aosp" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="pdk,linux" />
@@ -294,6 +326,41 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" revision="master" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
+  <!-- ***** TeamEos ***** -->
+  <!-- Devices -->
+  <project path="device/moto/wingray" name="device_moto_wingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
+  <project path="device/moto/stingray" name="device_moto_stingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
+  <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
+  <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
+  <project path="device/asus/tf101" name="device_asus_tf101" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,asus,tf101" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,asus,grouper" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,tuna" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,tuna" />
+  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,tuna" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,tuna" />
+
+  <!-- Kernels -->
+  <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,moto,xoom" />
+  <project path="kernel/asus/tf101" name="kernel_asus_tf101" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,asus,tf101" />
+  <project path="kernel/samsung/tuna" name="kernel_samsung_tuna" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,tuna" />
+  <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,manta" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,lge,mako" />
+
+  <!-- Vendors -->
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,asus" />
+  <project path="vendor/moto" name="vendor_moto" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,moto" />
+  <project path="vendor/broadcom" name="vendor_broadcom" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,broadcom" />
+  <project path="vendor/nvidia" name="vendor_nvidia" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,nvidia" />
+  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,imgtec" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,widevine" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,invensense" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,nxp" />
+  <project path="vendor/qcom/mako" name="vendor_qcom_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,qcom" />
+  <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
+  <project path="vendor/samsung/maguro" name="vendor_samsung_maguro" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
+  <project path="vendor/samsung/toro" name="vendor_samsung_toro" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
+  <project path="vendor/samsung/toroplus" name="vendor_samsung_toroplus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
+
   <!-- Packages -->
   <project path="packages/apps/CDMATools" name="bigrushdog/cdma_tools" remote="github" revision="master" />
   <project path="packages/apps/KernelControls" name="bigrushdog/kernel_controls" remote="github" revision="jb-devel" />
@@ -302,12 +369,36 @@
   <project path="external/iw" name="external_iw" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/libnl" name="external_libnl" remote="cfx-exp" revision="jb-devel-mr2-release" />
 
+  <!-- ***** end TeamEos ***** -->
+  
+  <!-- ##### OpenSEMC ##### -->
+  <!-- Devices -->
+  <project path="device/sony/common" name="OpenSEMC/android_device_sony_common" remote="github" revision="cm-10.1" groups="device,sony,common"/>
+  <project path="device/sony/qcom-common-fuji" name="OpenSEMC/android_device_sony_qcom-common" remote="github" revision="cm-10.1" groups="device,sony,qcom-common"/>
+  
+  <project path="device/sony/fuji-common" name="OpenSEMC/android_device_sony_fuji-common" remote="github" revision="cfx" groups="device,sony,fuji-common"/>
+  
+  <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="cfx" groups="device,sony,nozomi"/>
+  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="cfx" groups="device,sony,hikari"/>
+  
+  <!-- Kernels -->
+  <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="cfx" groups="kernel"/>
+  
   <!-- Hardware -->
   <project path="hardware/qcom/audio-caf" name="OpenSEMC/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="OpenSEMC/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1" groups="qcom" />
+  <project path="hardware/sony/DASH" name="OpenSEMC/android_hardware_sony_DASH" remote="github" revision="cm-10.1" groups="sony" />
+  
+  <!-- Vendor -->
+  <project path="vendor/sony" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="cm-10.1" groups="vendor,sony,nozomi" />
+  
+  <!-- ##### end OpenSEMC ##### -->
 
   <!-- CyanogenMod -->
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.2" groups="qcom" />
+
+  <!-- The Muppets -->
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-10.2" groups="vendor,htc,muppets" />
 
   <!-- codefireX-Toolchain -->
   <project path="external/codefirex/src/binutils/binutils-upstream" name="toolchain_binutils-upstream" remote="cfx-exp" revision="jb-devel" />
@@ -458,6 +549,7 @@
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-10.2" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.2" />
   <project path="device/samsung/jfltexx" name="codefireXperiment/device_samsung_jfltexx" remote="github" revision="jb-devel-mr2-release" />
-  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-10.2" />
-
+  <project path="vendor/samsung/jfltexx" name="codefireXperiment/vendor_samsung_jfltexx" remote="github" revision="jb-devel-mr2-release" />
+  <project path="vendor/samsung/jf-common" name="codefireXperiment/vendor_samsung_jf-common" remote="github" revision="jb-devel-mr2-release" />
+ 
 </manifest>
