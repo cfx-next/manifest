@@ -383,8 +383,8 @@
   <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="cfx" groups="kernel"/>
   
   <!-- Hardware -->
-  <project path="hardware/qcom/audio-caf" name="OpenSEMC/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.1" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="OpenSEMC/android_hardware_qcom_display-caf" remote="github" revision="cm-10.1" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="OpenSEMC/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.2" groups="qcom" />
+  <project path="hardware/qcom/display-caf" name="OpenSEMC/android_hardware_qcom_display-caf" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="hardware/sony/DASH" name="OpenSEMC/android_hardware_sony_DASH" remote="github" revision="cm-10.1" groups="sony" />
   
   <!-- Vendor -->
