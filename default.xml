@@ -20,7 +20,7 @@
   <remote  name="linaro-android"
            fetch="git://android.git.linaro.org" />
 
-  <default revision="jb-mr2-release"
+  <default revision="refs/tags/android-4.3_r2.1"
            remote="aosp"
            sync-j="4" />
 
