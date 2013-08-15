@@ -199,7 +199,6 @@
   <project path="frameworks/volley" name="platform/frameworks/volley" />
   <project path="frameworks/webview" name="platform/frameworks/webview" />
   <project path="hardware/akm" name="platform/hardware/akm" />
-  <project path="hardware/broadcom/libbt" name="platform/hardware/broadcom/libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" groups="qcom" />
@@ -483,6 +482,7 @@
   <project path="frameworks/rs" name="frameworks_rs" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="frameworks/support" name="frameworks_support" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="hardware/msm7k" name="hardware_msm7k" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -551,5 +551,4 @@
   <project path="device/samsung/jfltexx" name="codefireXperiment/device_samsung_jfltexx" remote="github" revision="jb-devel-mr2-release" />
   <project path="vendor/samsung/jfltexx" name="codefireXperiment/vendor_samsung_jfltexx" remote="github" revision="jb-devel-mr2-release" />
   <project path="vendor/samsung/jf-common" name="codefireXperiment/vendor_samsung_jf-common" remote="github" revision="jb-devel-mr2-release" />
- 
 </manifest>
