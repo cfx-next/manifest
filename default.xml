@@ -179,7 +179,6 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
   <project path="external/zxing" name="platform/external/zxing" />
-  <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" />
   <project path="frameworks/compile/llvm-ndk-cc" name="platform/frameworks/compile/llvm-ndk-cc" revision="master" groups="pdk" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" />
   <project path="frameworks/mff" name="platform/frameworks/mff" />
@@ -474,6 +473,7 @@
   <project path="external/zlib" name="external_zlib" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
   <project path="frameworks/base" name="frameworks_base" remote="cfx-exp" revision="jb-devel-mr2-staging" />
+  <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="frameworks/ex" name="frameworks_ex" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
