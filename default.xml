@@ -442,10 +442,10 @@
   <project path="external/compiler-rt" name="external_compiler-rt" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
-  <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel-mr2-staging" />
   <project path="external/fsck_msdos" name="external_fsck_msdos" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/gson" name="external_gson" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="external/icu4c" name="external_icu4c" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
+  <project path="external/icu4c" name="external_icu4c" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
   <project path="external/iputils" name="external_iputils" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" /> 
   <project path="external/jpeg" name="external_jpeg" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -460,11 +460,11 @@
   <project path="external/llvm" name="external_llvm" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/okhttp" name="external_okhttp" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/openssh" name="external_openssh" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="external/openssl" name="external_openssl" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
+  <project path="external/openssl" name="external_openssl" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/sepolicy" name="external_sepolicy" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/skia" name="external_skia" remote="cfx-exp" revision="jb-devel-mr2-staging" />
-  <project path="external/sqlite" name="external_sqlite" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
+  <project path="external/sqlite" name="external_sqlite" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
   <project path="external/srec" name="external_srec" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/stlport" name="external_stlport" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
   <project path="external/v8" name="external_v8" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -484,7 +484,7 @@
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
   <project path="hardware/msm7k" name="hardware_msm7k" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="exynos5" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
