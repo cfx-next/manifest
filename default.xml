@@ -515,7 +515,7 @@
   <project path="packages/apps/Gallery2" name="packages_apps_gallery2" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Mms" name="packages_apps_mms" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="packages/apps/Nfc" name="packages_apps_nfc" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="packages/apps/Nfc" name="packages_apps_nfc" remote="cfx-exp" revision="jb-devel-mr2-staging" />
   <project path="packages/apps/Phone" name="packages_apps_phone" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Settings" name="packages_apps_settings" remote="cfx-exp" revision="jb-devel-mr2-staging" />
   <project path="packages/apps/Torch" name="packages_apps_torch" remote="cfx-exp" revision="jb-devel-mr2-release" />
