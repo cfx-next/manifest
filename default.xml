@@ -377,7 +377,7 @@
   <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="cfx" groups="device,sony,hikari"/>
   
   <!-- Kernels -->
-  <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="cfx" groups="kernel"/>
+  <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="jb-devel-mr2-legacy" groups="kernel"/>
   
   <!-- Hardware -->
   <project path="hardware/qcom/audio-caf" name="OpenSEMC/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.2" groups="qcom" />
@@ -400,8 +400,8 @@
   <project path="external/codefirex/src/build" name="toolchain_build" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/cloog" name="toolchain_cloog" remote ="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/expat" name="toolchain/expat" />
-  <project path="external/codefirex/src/gcc/gcc-4.8" name="toolchain_gcc-4.8" remote="cfx-exp" revision="jb-devel" />
-  <project path="external/codefirex/src/gcc/gcc-4.9" name="toolchain_gcc-4.9" remote="cfx-exp" revision="jb-devel" />
+  <project path="external/codefirex/src/expat" name="toolchain/expat" revision="master" />
+  <project path="external/codefirex/src/gcc" name="toolchain_gcc" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/gdb" name="toolchain_gdb" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/gmp" name="toolchain_gmp" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/isl" name="toolchain/isl" />
