@@ -448,7 +448,6 @@
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/koush/androidasync" name="external_koush_androidasync" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/koush/ion" name="external_koush_ion" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="external/koush/Superuser" name="external_koush_superuser" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/koush/Widgets" name="external_koush_widgets" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="cfx-exp" revision="jb-devel-mr2-release" groups="nxp_nfc" />
