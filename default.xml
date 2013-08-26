@@ -422,6 +422,7 @@
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
   <project path="device/htc/m7spr" name="device_htc_m7spr" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
   <project path="device/htc/m7tmo" name="device_htc_m7tmo" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
+  <project path="device/htc/m7att" name="android_device_htc_m7att" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc" />
