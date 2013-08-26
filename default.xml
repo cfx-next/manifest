@@ -400,7 +400,6 @@
   <project path="external/codefirex/src/build" name="toolchain_build" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/cloog" name="toolchain_cloog" remote ="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/expat" name="toolchain/expat" />
-  <project path="external/codefirex/src/expat" name="toolchain/expat" revision="master" />
   <project path="external/codefirex/src/gcc" name="toolchain_gcc" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/gdb" name="toolchain_gdb" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/gmp" name="toolchain_gmp" remote="cfx-exp" revision="jb-devel" />
