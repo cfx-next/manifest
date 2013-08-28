@@ -427,6 +427,8 @@
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc" />
   <project path="device/lge/mako" name="device_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,mako" />
   <project path="device/samsung/manta" name="device_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,manta" />
+  <project path="device/samsung/infuse4g" name="device_samsung_infuse4g" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,samsung,infuse4g" />
+  <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,samsung" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,oppo,find5" />
   <project path="external/android-mock" name="external_android-mock" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/aac" name="external_aac" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
@@ -499,6 +501,7 @@
   <project path="kernel/htc/m7" name="kernel_htc_m7" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,htc,m7" />
   <project path="kernel/htc/msm7x30" name="kernel_htc_msm7x30" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,htc,ace" />
   <project path="kernel/oppo/find5" name="kernel_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,oppo,find5" />
+  <project path="kernel/samsung/dempsey" name="kernel_samsung_dempsey" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,infuse4g" />
   <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_latinime" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -537,6 +540,8 @@
   <project path="vendor/lge/mako" name="vendor_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,mako" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,qcom" />
   <project path="vendor/samsung/manta" name="vendor_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
+  <project path="vendor/samsung/aries-common" name="vendor_samsung_aries-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
+  <project path="vendor/samsung/infuse4g" name="vendor_samsung_infuse4g" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
   <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,oppo,find5" />
   <project path="vendor/tmobile/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,tmobile" />
   <project path="vendor/tmobile/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,tmobile" />
