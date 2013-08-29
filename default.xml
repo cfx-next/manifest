@@ -415,7 +415,7 @@
   <project path="bionic" name="bionic" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
   <project path="bootable/recovery" name="bootable_recovery" remote="cfx-exp" revision="jb-devel-mr2-release" groups="twrp" />
   <project path="dalvik" name="dalvik" remote="cfx-exp" revision="jb-devel-mr2-staging" />
-  <project path="development" name="development" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="development" name="development" remote="cfx-exp" revision="jb-devel-mr2-staging" />
   <project path="device/common" name="device_common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device" />
   <project path="device/htc/ace" name="device_htc_ace" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,ace" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
