@@ -336,7 +336,7 @@
   <!-- Kernels -->
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,moto,xoom" />
   <project path="kernel/asus/tf101" name="kernel_asus_tf101" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,asus,tf101" />
-  <project path="kernel/samsung/tuna" name="imoseyon/leanKernel-galaxy-nexus" remote="github" revision="lk-jb-mr2-exp" groups="kernel,samsung,tuna" />
+  <project path="kernel/samsung/tuna" name="leanKernel-galaxy-nexus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,tuna" />
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,manta" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,lge,mako" />
 
