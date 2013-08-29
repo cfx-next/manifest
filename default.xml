@@ -409,13 +409,13 @@
   <project path="external/codefirex/src/ppl" name="Mustaavalkosta/toolchain_ppl" remote="github" revision="master" />
 
   <!-- The codefireXperiment -->
-  <project path="build" name="build" remote="cfx-exp" revision="jb-devel-mr2-staging" >
+  <project path="build" name="build" remote="cfx-exp" revision="jb-devel-mr2-release" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="bionic" name="bionic" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
+  <project path="bionic" name="bionic" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="bootable/recovery" name="bootable_recovery" remote="cfx-exp" revision="jb-devel-mr2-release" groups="twrp" />
-  <project path="dalvik" name="dalvik" remote="cfx-exp" revision="jb-devel-mr2-staging" />
-  <project path="development" name="development" remote="cfx-exp" revision="jb-devel-mr2-staging" />
+  <project path="dalvik" name="dalvik" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="development" name="development" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="device/common" name="device_common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device" />
   <project path="device/htc/ace" name="device_htc_ace" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,ace" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
@@ -439,10 +439,10 @@
   <project path="external/compiler-rt" name="external_compiler-rt" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
-  <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel-mr2-staging" />
+  <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/fsck_msdos" name="external_fsck_msdos" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/gson" name="external_gson" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="external/icu4c" name="external_icu4c" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
+  <project path="external/icu4c" name="external_icu4c" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/iputils" name="external_iputils" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" /> 
   <project path="external/jpeg" name="external_jpeg" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -454,26 +454,26 @@
   <project path="external/libpng" name="external_libpng" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/llvm" name="external_llvm" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="external/okhttp" name="external_okhttp" remote="cfx-exp" revision="jb-devel-mr2-staging" />
+  <project path="external/okhttp" name="external_okhttp" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/openssh" name="external_openssh" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="external/openssl" name="external_openssl" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
+  <project path="external/openssl" name="external_openssl" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/sepolicy" name="external_sepolicy" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="external/skia" name="external_skia" remote="cfx-exp" revision="jb-devel-mr2-staging" />
-  <project path="external/sqlite" name="external_sqlite" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
+  <project path="external/skia" name="external_skia" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="external/sqlite" name="external_sqlite" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/srec" name="external_srec" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="external/stlport" name="external_stlport" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
+  <project path="external/stlport" name="external_stlport" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/v8" name="external_v8" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="external/webkit" name="external_webkit" remote="cfx-exp" revision="jb-devel-mr2-staging" />
+  <project path="external/webkit" name="external_webkit" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/yaffs2" name="external_yaffs2" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/zlib" name="external_zlib" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
-  <project path="frameworks/base" name="frameworks_base" remote="cfx-exp" revision="jb-devel-mr2-staging" />
+  <project path="frameworks/av" name="frameworks_av" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
+  <project path="frameworks/base" name="frameworks_base" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="frameworks/compile/libbcc" name="frameworks_compile_libbcc" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="frameworks_compile_mclinker" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="frameworks/ex" name="frameworks_ex" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
+  <project path="frameworks/native" name="frameworks_native" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="frameworks/opt/net/voip" name="frameworks_opt_net_voip" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="frameworks/rs" name="frameworks_rs" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -481,7 +481,7 @@
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="hardware/libhardware" name="hardware_libhardware" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
-  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="hardware/msm7k" name="hardware_msm7k" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="exynos5" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
@@ -499,7 +499,7 @@
   <project path="kernel/htc/m7" name="kernel_htc_m7" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,htc,m7" />
   <project path="kernel/htc/msm7x30" name="kernel_htc_msm7x30" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,htc,ace" />
   <project path="kernel/oppo/find5" name="kernel_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,oppo,find5" />
-  <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel-mr2-staging" />
+  <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_latinime" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/0xbench" name="packages_apps_0xbench" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -514,9 +514,9 @@
   <project path="packages/apps/Gallery2" name="packages_apps_gallery2" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Mms" name="packages_apps_mms" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="packages/apps/Nfc" name="packages_apps_nfc" remote="cfx-exp" revision="jb-devel-mr2-staging" />
+  <project path="packages/apps/Nfc" name="packages_apps_nfc" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Phone" name="packages_apps_phone" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="packages/apps/Settings" name="packages_apps_settings" remote="cfx-exp" revision="jb-devel-mr2-staging" />
+  <project path="packages/apps/Settings" name="packages_apps_settings" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Torch" name="packages_apps_torch" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/VoicePlus" name="packages_apps_voiceplus" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_contactsprovider" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -528,7 +528,7 @@
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.8" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk,linux,arm" />
   <project path="prebuilts/misc" name="prebuilts_misc" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="sdk" name="sdk" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="system/core" name="system_core" remote="cfx-exp" revision="jb-devel-mr2-staging" groups="pdk" />
+  <project path="system/core" name="system_core" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="system/extras" name="system_extras" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="system/security" name="system_security" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
