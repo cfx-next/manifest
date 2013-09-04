@@ -377,8 +377,6 @@
   <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="jb-devel-mr2" groups="kernel"/>
   
   <!-- Hardware -->
-  <project path="hardware/qcom/audio-caf" name="OpenSEMC/android_hardware_qcom_audio-caf" remote="github" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/display-caf" name="OpenSEMC/android_hardware_qcom_display-caf" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/display-legacy" name="OpenSEMC/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" groups="qcom" />
 
@@ -497,6 +495,8 @@
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
+  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
+  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/ril" name="hardware_ril" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
