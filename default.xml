@@ -449,11 +449,11 @@
   <project path="external/gson" name="external_gson" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/icu4c" name="external_icu4c" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/iputils" name="external_iputils" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" /> 
-  <project path="external/jpeg" name="external_jpeg" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/koush/androidasync" name="external_koush_androidasync" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/koush/ion" name="external_koush_ion" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/koush/Widgets" name="external_koush_widgets" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="external/jpeg" name="external_libjpeg-turbo" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="cfx-exp" revision="jb-devel-mr2-release" groups="nxp_nfc" />
   <project path="external/libpng" name="external_libpng" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
