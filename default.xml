@@ -462,6 +462,7 @@
   <project path="external/libpng" name="external_libpng" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/llvm" name="external_llvm" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="external/miniz" name="external_miniz" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/okhttp" name="external_okhttp" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/openssh" name="external_openssh" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/openssl" name="external_openssl" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
