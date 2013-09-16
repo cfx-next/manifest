@@ -417,8 +417,6 @@
   <project path="device/htc/ace" name="device_htc_ace" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,ace" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
   <project path="device/htc/m7spr" name="device_htc_m7spr" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
-  <project path="device/htc/m7tmo" name="device_htc_m7tmo" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
-  <project path="device/htc/m7att" name="android_device_htc_m7att" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,s4" />
   <project path="device/htc/jewel" name="device_htc_jewel" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,s4" />
