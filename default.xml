@@ -386,6 +386,7 @@
   <!-- CyanogenMod -->
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-10.2" groups="qcom" />
+  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-10.2" />
 
   <!-- The Muppets -->
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,htc" />
