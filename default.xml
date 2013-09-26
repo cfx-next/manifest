@@ -203,7 +203,6 @@
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" revision="master" groups="omap4-aah" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
-  <project path="kernel/asus/grouper" name="kernel/tegra" revision="android-tegra3-grouper-3.1-jb-mr2" groups="kernel,asus,grouper" />
   <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
@@ -505,6 +504,7 @@
   <project path="hardware/ril" name="hardware_ril" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="cfx-exp" revision="jb-devel-mr2-release" groups="omap4" />
   <project path="kernel/asus/flo" name="kernel_asus_flo" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,flo" />
+  <project path="kernel/asus/grouper" name="imoseyon/leanKernel-grouper" remote="github"revision="lk-jb-mr2" groups="kernel,asus,grouper" />
   <project path="kernel/htc/m7" name="kernel_htc_m7" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,htc,m7" />
   <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,htc,msm8960" />
   <project path="kernel/htc/msm7x30" name="kernel_htc_msm7x30" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,htc,ace" />
