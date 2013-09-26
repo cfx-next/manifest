@@ -567,4 +567,7 @@
   <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="vendor/samsung/jfltexx" name="vendor_samsung_jfltexx" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="vendor/samsung/jf-common" name="vendor_samsung_jf-common" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="vendor/samsung/jfltevzw" name="DaMadOne/vendor_samsung_jfltevzw" remote="github" revision="jb-devel-mr2-release" />
+  <project path="vendor/samsung/jfltetmo" name="DaMadOne/vendor_samsung_jfltetmo" remote="github" revision="jb-devel-mr2-release" />
+  <project path="vendor/samsung/jfltespr" name="DaMadOne/vendor_samsung_jfltespr" remote="github" revision="jb-devel-mr2-release" />
 </manifest>
