@@ -314,81 +314,10 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
-  <!-- ***** TeamEos ***** -->
-  <!-- Devices -->
-  <project path="device/moto/wingray" name="device_moto_wingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
-  <project path="device/moto/stingray" name="device_moto_stingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
-  <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
-  <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
-  <project path="device/asus/tf101" name="device_asus_tf101" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,asus,tf101" />
-  <project path="device/asus/grouper" name="device_asus_grouper" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,asus,grouper" />
-  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,tuna" />
-  <project path="device/samsung/toro" name="device_samsung_toro" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,tuna" />
-  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,tuna" />
-  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,tuna" />
-
-  <!-- Kernels -->
-  <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,moto,xoom" />
-  <project path="kernel/asus/tf101" name="kernel_asus_tf101" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,asus,tf101" />
-  <project path="kernel/samsung/tuna" name="leanKernel-galaxy-nexus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,tuna" />
-  <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,manta" />
-  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,lge,mako" />
-
-  <!-- Vendors -->
-  <project path="vendor/asus" name="proprietary_vendor_asus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,asus" />
-  <project path="vendor/moto" name="vendor_moto" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,moto" />
-  <project path="vendor/broadcom" name="vendor_broadcom" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,broadcom" />
-  <project path="vendor/nvidia" name="vendor_nvidia" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,nvidia" />
-  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,imgtec" />
-  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,widevine" />
-  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,invensense" />
-  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,nxp" />
-  <project path="vendor/qcom/mako" name="vendor_qcom_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,qcom" />
-  <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
-  <project path="vendor/samsung/maguro" name="vendor_samsung_maguro" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
-  <project path="vendor/samsung/toro" name="vendor_samsung_toro" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
-  <project path="vendor/samsung/toroplus" name="vendor_samsung_toroplus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
-
-  <!-- Packages -->
+  <!-- BigRushDog -->
   <project path="packages/apps/CDMATools" name="bigrushdog/cdma_tools" remote="github" revision="master" />
   <project path="packages/apps/KernelControls" name="bigrushdog/kernel_controls" remote="github" revision="jb-devel" />
-
-  <!-- External -->
-  <project path="external/iw" name="external_iw" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="external/libnl" name="external_libnl" remote="cfx-exp" revision="jb-devel-mr2-release" />
-
-  <!-- ***** end TeamEos ***** -->
   
-  <!-- ##### OpenSEMC ##### -->
-  <!-- Devices -->
-  <project path="device/sony/common" name="OpenSEMC/android_device_sony_common" remote="github" revision="cm-10.2" groups="device,sony,common"/>
-
-  <project path="device/sony/fuji-common" name="OpenSEMC/android_device_sony_fuji-common" remote="github" revision="jb-devel-mr2" groups="device,sony,fuji-common"/>
-  
-  <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="jb-devel-mr2" groups="device,sony,nozomi"/>
-  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="jb-devel-mr2" groups="device,sony,hikari"/>
-  
-  <!-- Kernels -->
-  <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="jb-devel-mr2" groups="kernel"/>
-  
-  <!-- Hardware -->
-  <project path="hardware/qcom/display-legacy" name="OpenSEMC/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" groups="qcom" />
-
-  <!-- Vendor -->
-  <project path="vendor/sony-fuji" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="cm-10.2" groups="vendor,sony,nozomi" />
-  <project path="vendor/broadcom/wlan" name="OpenSEMC/vendor_broadcom_wlan" remote="github" revision="cm-10.2" groups="vendor,broadcom" />
-  
-  <!-- ##### end OpenSEMC ##### -->
-
-  <!-- CyanogenMod -->
-  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.2" groups="qcom" />
-  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-10.2" groups="qcom" />
-  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-10.2" />
-
-  <!-- The Muppets -->
-  <project path="vendor/htc" name="proprietary_vendor_htc" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,htc" />
-
   <!-- codefireX-Toolchain -->
   <project path="external/codefirex/src/binutils/binutils-upstream" name="toolchain_binutils-upstream" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/build" name="toolchain_build" remote="cfx-exp" revision="jb-devel" />
@@ -403,7 +332,7 @@
   <project path="external/codefirex/src/mpfr" name="toolchain_mpfr" remote="cfx-exp" revision="jb-devel" />
   <project path="external/codefirex/src/ppl" name="Mustaavalkosta/toolchain_ppl" remote="github" revision="master" />
 
-  <!-- The codefireXperiment -->
+  <!-- codefireXperiment -->
   <project path="build" name="build" remote="cfx-exp" revision="jb-devel-mr2-release" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -413,6 +342,8 @@
   <project path="development" name="development" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="device/common" name="device_common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device" />
   <project path="device/asus/flo" name="device_asus_flo" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,flo" />
+  <project path="device/asus/grouper" name="device_asus_grouper" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,asus,grouper" />
+  <project path="device/asus/tf101" name="device_asus_tf101" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,asus,tf101" />
   <project path="device/htc/ace" name="device_htc_ace" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,ace" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
   <project path="device/htc/m7spr" name="device_htc_m7spr" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,m7" />
@@ -427,10 +358,22 @@
   <project path="device/lge/ls970" name="device_lge_ls970" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,gee" />
   <project path="device/lge/ls970-common" name="device_lge_ls970-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,gee" />
   <project path="device/lge/mako" name="device_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,mako" />
-  <project path="device/samsung/manta" name="device_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,manta" />
-  <project path="device/samsung/infuse4g" name="device_samsung_infuse4g" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,samsung,infuse4g" />
-  <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,samsung" />
+  <project path="device/moto/wingray" name="device_moto_wingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
+  <project path="device/moto/stingray" name="device_moto_stingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
+  <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
+  <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,oppo,find5" />
+  <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,samsung" />
+  <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="device/samsung/jfltexx" name="device_samsung_jfltexx" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="device/samsung/infuse4g" name="device_samsung_infuse4g" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,samsung,infuse4g" />
+  <project path="device/samsung/manta" name="device_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,manta" />
+  <project path="device/samsung/maguro" name="device_samsung_maguro" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,tuna" />
+  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="device/samsung/toro" name="device_samsung_toro" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,tuna" />
+  <project path="device/samsung/toroplus" name="device_samsung_toroplus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,tuna" />
+  <project path="device/samsung/tuna" name="device_samsung_tuna" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,tuna" />
   <project path="external/android-mock" name="external_android-mock" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/aac" name="external_aac" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/angle" name="external_angle" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -448,6 +391,7 @@
   <project path="external/gson" name="external_gson" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/icu4c" name="external_icu4c" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/iputils" name="external_iputils" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" /> 
+  <project path="external/iw" name="external_iw" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/kissfft" name="external_kissfft" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/koush/androidasync" name="external_koush_androidasync" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/koush/ion" name="external_koush_ion" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -455,6 +399,7 @@
   <project path="external/jpeg" name="external_jpeg" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/libnfc-nci" name="external_libnfc-nci" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="cfx-exp" revision="jb-devel-mr2-release" groups="nxp_nfc" />
+  <project path="external/libnl" name="external_libnl" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/libpng" name="external_libpng" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/linux-tools-perf" name="external_linux-tools-perf" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -505,12 +450,17 @@
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="cfx-exp" revision="jb-devel-mr2-release" groups="omap4" />
   <project path="kernel/asus/flo" name="kernel_asus_flo" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,flo" />
   <project path="kernel/asus/grouper" name="imoseyon/leanKernel-grouper" remote="github" revision="lk-jb-mr2" groups="kernel,asus,grouper" />
+  <project path="kernel/asus/tf101" name="kernel_asus_tf101" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,asus,tf101" />
   <project path="kernel/htc/m7" name="kernel_htc_m7" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,htc,m7" />
   <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,htc,msm8960" />
   <project path="kernel/htc/msm7x30" name="kernel_htc_msm7x30" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,htc,ace" />
   <project path="kernel/lge/gproj" name="kernel_lge_gproj" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,lge,gee" />
+  <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,lge,mako" />
+  <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,moto,xoom" />
   <project path="kernel/oppo/find5" name="maxwen/android_kernel_oppo_find5" remote="github" revision="jb-mr2" groups="kernel,oppo,find5" />
   <project path="kernel/samsung/dempsey" name="kernel_samsung_dempsey" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,infuse4g" />
+  <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,manta" />
+  <project path="kernel/samsung/tuna" name="leanKernel-galaxy-nexus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,tuna" />
   <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_latinime" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -544,30 +494,54 @@
   <project path="system/extras" name="system_extras" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="system/security" name="system_security" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="system/vold" name="system_vold" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,asus" />
+  <project path="vendor/broadcom" name="vendor_broadcom" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,broadcom" />
   <project path="vendor/cfx" name="vendor_cfx" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,htc" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,ace" />
+  <project path="vendor/imgtec" name="proprietary_vendor_imgtec" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,imgtec" />
+  <project path="vendor/invensense" name="proprietary_vendor_invensense" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,invensense" />
   <project path="vendor/lge/e975" name="vendor_lge_e975" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,gee" />
   <project path="vendor/lge/mako" name="vendor_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,mako" />
+  <project path="vendor/moto" name="vendor_moto" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,moto" />
+  <project path="vendor/nvidia" name="vendor_nvidia" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,nvidia" />
+  <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,nxp" />
+  <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,oppo,find5" />
+  <project path="vendor/qcom/mako" name="vendor_qcom_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,qcom" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,qcom" />
   <project path="vendor/samsung/manta" name="vendor_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
   <project path="vendor/samsung/aries-common" name="vendor_samsung_aries-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
   <project path="vendor/samsung/infuse4g" name="vendor_samsung_infuse4g" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
-  <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,oppo,find5" />
+  <project path="vendor/samsung/jfltexx" name="vendor_samsung_jfltexx" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="vendor/samsung/jf-common" name="vendor_samsung_jf-common" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="vendor/samsung/jfltevzw" name="vendor_samsung_jfltevzw" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="vendor/samsung/jfltetmo" name="vendor_samsung_jfltetmo" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="vendor/samsung/jfltespr" name="vendor_samsung_jfltespr" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="vendor/samsung/maguro" name="vendor_samsung_maguro" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
+  <project path="vendor/samsung/toro" name="vendor_samsung_toro" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
+  <project path="vendor/samsung/toroplus" name="vendor_samsung_toroplus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
+  <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,samsung" />
   <project path="vendor/tmobile/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,tmobile" />
   <project path="vendor/tmobile/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,tmobile" />
   <project path="vendor/tmobile/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,tmobile" />
+  <project path="vendor/widevine" name="proprietary_vendor_widevine" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,widevine" />
 
-
+  <!-- CyanogenMod -->
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-10.2" />
-  <project path="device/samsung/msm8960-common" name="device_samsung_msm8960-common" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="device/samsung/jf-common" name="DaMadOne/device_samsung_jf-common" remote="github" revision="jb-devel-mr2-release" />
-  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-10.2" />
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.2" />
-  <project path="device/samsung/jfltexx" name="device_samsung_jfltexx" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="device/samsung/jfltevzw" name="DaMadOne/android_device_samsung_jfltevzw" remote="github" revision="jb-devel-mr2-release" />
-  <project path="vendor/samsung/jfltexx" name="vendor_samsung_jfltexx" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="vendor/samsung/jf-common" name="DaMadOne/vendor_samsung_jf-common" remote="github" revision="jb-devel-mr2-release" />
-  <project path="vendor/samsung/jfltevzw" name="DaMadOne/vendor_samsung_jfltevzw" remote="github" revision="jb-devel-mr2-release" />
-  <project path="vendor/samsung/jfltetmo" name="DaMadOne/vendor_samsung_jfltetmo" remote="github" revision="jb-devel-mr2-release" />
-  <project path="vendor/samsung/jfltespr" name="DaMadOne/vendor_samsung_jfltespr" remote="github" revision="jb-devel-mr2-release" />
+  <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" remote="github" revision="cm-10.2" groups="qcom" />
+  <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" remote="github" revision="cm-10.2" groups="qcom" />
+  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-10.2" />
+  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-10.2" />
+
+  <!-- OpenSEMC -->
+  <project path="device/sony/common" name="OpenSEMC/android_device_sony_common" remote="github" revision="cm-10.2" groups="device,sony,common"/>
+  <project path="device/sony/fuji-common" name="OpenSEMC/android_device_sony_fuji-common" remote="github" revision="jb-devel-mr2" groups="device,sony,fuji-common"/>
+  <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="jb-devel-mr2" groups="device,sony,nozomi"/>
+  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="jb-devel-mr2" groups="device,sony,hikari"/>
+  <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="jb-devel-mr2" groups="kernel"/>
+  <project path="hardware/qcom/display-legacy" name="OpenSEMC/android_hardware_qcom_display-legacy" remote="github" revision="cm-10.2" groups="qcom" />
+  <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" groups="qcom" />
+  <project path="vendor/sony-fuji" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="cm-10.2" groups="vendor,sony,nozomi" />
+  <project path="vendor/broadcom/wlan" name="OpenSEMC/vendor_broadcom_wlan" remote="github" revision="cm-10.2" groups="vendor,broadcom" />
 </manifest>
