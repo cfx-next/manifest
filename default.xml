@@ -164,7 +164,6 @@
   <project path="external/stressapptest" name="platform/external/stressapptest" />
   <project path="external/svox" name="platform/external/svox" />
   <project path="external/tagsoup" name="platform/external/tagsoup" />
-  <project path="external/tcpdump" name="platform/external/tcpdump" />
   <project path="external/timezonepicker-support" name="platform/external/timezonepicker-support" />
   <project path="external/tinyalsa" name="platform/external/tinyalsa" groups="pdk" />
   <project path="external/tinyxml" name="platform/external/tinyxml" groups="pdk" />
@@ -421,6 +420,7 @@
   <project path="external/srec" name="external_srec" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/stlport" name="external_stlport" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/strace" name="external_strace" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
+  <project path="external/tcpdump" name="external_tcpdump" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/v8" name="external_v8" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/webkit" name="external_webkit" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/webp" name="external_webp" remote="cfx-exp" revision="jb-devel-mr2-release" />
