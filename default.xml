@@ -449,8 +449,8 @@
   <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
+  <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
+  <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/ril" name="hardware_ril" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
