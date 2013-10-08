@@ -387,7 +387,7 @@
   <project path="external/chromium" name="external_chromium" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/clang" name="external_clang" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/compiler-rt" name="external_compiler-rt" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
-  <project path="external/conscrypt" name="external_conscrypt" remote="cfx-exp" revision-"jb-devel-mr2-release" />
+  <project path="external/conscrypt" name="external_conscrypt" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/dnsmasq" name="external_dnsmasq" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/expat" name="external_expat" remote="cfx-exp" revision="jb-devel-mr2-release" />
