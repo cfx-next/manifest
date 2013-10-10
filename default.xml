@@ -450,8 +450,11 @@
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
+  <project path="hardware/qcom/audio-jb_26" name="hardware_qcom_audio-jb_26" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" /> 
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
+  <project path="hardware/qcom/display-jb_26" name="hardware_qcom_display-jb_26" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
   <project path="hardware/qcom/media-caf" name="hardware_qcom_media-caf" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
+  <project path="hardware/qcom/media-jb_26" name="hardware_qcom_media-jb_26" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom,caf" />
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="cfx-exp" revision="jb-devel-mr2-release" groups="qcom" />
   <project path="hardware/ril" name="hardware_ril" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" remote="cfx-exp" revision="jb-devel-mr2-release" groups="omap4" />
