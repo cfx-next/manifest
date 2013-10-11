@@ -467,7 +467,7 @@
   <project path="kernel/lge/gproj" name="kernel_lge_gproj" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,lge,gee" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,lge,mako" />
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,moto,xoom" />
-  <project path="kernel/oppo/find5" name="maxwen/android_kernel_oppo_find5" remote="github" revision="jb-mr2" groups="kernel,oppo,find5" />
+  <project path="kernel/oppo/find5" name="kernel_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,oppo,find5" />
   <project path="kernel/samsung/dempsey" name="kernel_samsung_dempsey" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,infuse4g" />
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,manta" />
   <project path="kernel/samsung/tuna" name="leanKernel-galaxy-nexus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,tuna" />
