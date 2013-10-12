@@ -25,7 +25,6 @@
            sync-j="4" />
 
   <!-- Android Open Source Project -->
-  <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
   <project path="device/asus/deb" name="device/asus/deb" groups="device,flo" />
@@ -338,6 +337,7 @@
   <project path="toolchain/src/texinfo" name="toolchain_texinfo" remote="cfx-exp" revision="jb-devel" />
 
   <!-- codefireXperiment -->
+  <project path="abi/cpp" name="abi_cpp" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="build" name="build" remote="cfx-exp" revision="jb-devel-mr2-release" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
