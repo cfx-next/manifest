@@ -233,7 +233,6 @@
   <project path="packages/apps/VideoEditor" name="platform/packages/apps/VideoEditor" />
   <project path="packages/apps/VoiceDialer" name="platform/packages/apps/VoiceDialer" />
   <project path="packages/experimental" name="platform/packages/experimental" />
-  <project path="packages/inputmethods/PinyinIME" name="platform/packages/inputmethods/PinyinIME" />
   <project path="packages/providers/ApplicationsProvider" name="platform/packages/providers/ApplicationsProvider" />
   <project path="packages/providers/CalendarProvider" name="platform/packages/providers/CalendarProvider" />
   <project path="packages/providers/DownloadProvider" name="platform/packages/providers/DownloadProvider" />
@@ -472,8 +471,6 @@
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,manta" />
   <project path="kernel/samsung/tuna" name="leanKernel-galaxy-nexus" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,tuna" />
   <project path="libcore" name="libcore" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_latinime" remote="cfx-exp" revision="jb-devel-mr2-release" />
-  <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/0xbench" name="packages_apps_0xbench" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Apollo" name="packages_apps_apollo" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Bluetooth" name="packages_apps_bluetooth" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -492,6 +489,9 @@
   <project path="packages/apps/Settings" name="packages_apps_settings" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/Torch" name="packages_apps_torch" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/apps/VoicePlus" name="packages_apps_voiceplus" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_latinime" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="packages/inputmethods/PinyinIME" name="packages_inputmethods_pinyinime" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/providers/ContactsProvider" name="packages_providers_contactsprovider" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/providers/MediaProvider" name="packages_providers_mediaprovider" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="packages/providers/TelephonyProvider" name="packages_providers_telephonyprovider" remote="cfx-exp" revision="jb-devel-mr2-release" />
