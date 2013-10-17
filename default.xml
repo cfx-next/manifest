@@ -556,4 +556,8 @@
   <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="vendor/sony" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="cm-10.2" groups="vendor,sony,nozomi" />
   <project path="vendor/broadcom/wlan" name="OpenSEMC/vendor_broadcom_wlan" remote="github" revision="cm-10.2" groups="vendor,broadcom" />
+
+  <!-- RaymanFX -->
+  <project path="device/asus/tf300t" name="RaymanFX/android_device_asus_tf300t" remote="github" revision="jb-devel-mr2" groups="device,asus,tf300t" />
+  <project path="kernel/asus/tf300t" name="RaymanFX/android_kernel_asus_tf300t" remote="github" revision="jb-devel-mr2" groups="kernel,asus,tf300t" />
 </manifest>
