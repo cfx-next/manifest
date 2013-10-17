@@ -117,7 +117,6 @@
   <project path="external/libusb_aah" name="platform/external/libusb_aah" groups="libusb_aah" />
   <project path="external/libusb-compat" name="platform/external/libusb-compat" />
   <project path="external/libvorbis" name="platform/external/libvorbis" />
-  <project path="external/libvpx" name="platform/external/libvpx" groups="pdk" />
   <project path="external/libxml2" name="platform/external/libxml2" />
   <project path="external/libxslt" name="platform/external/libxslt" />
   <project path="external/libyuv" name="platform/external/libyuv" groups="libyuv" />
@@ -406,6 +405,7 @@
   <project path="external/libnl" name="external_libnl" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/libpng" name="external_libpng" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/libselinux" name="external_libselinux" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="external/libvpx" name="external_libvpx" remote="cfx-exp" revision="jb-devel-mr2-release" groups="pdk" />
   <project path="external/linux-tools-perf" name="external_linux-tools-perf" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/llvm" name="external_llvm" remote="cfx-exp" revision="jb-devel-mr2-release" />
   <project path="external/libminiz" name="external_libminiz" remote="cfx-exp" revision="jb-devel-mr2-release" />
