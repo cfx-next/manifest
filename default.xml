@@ -355,6 +355,7 @@
   <project path="device/htc/jewel" name="device_htc_jewel" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,s4" />
   <project path="device/htc/evita" name="device_htc_evita" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,s4" />
   <project path="device/htc/ville" name="device_htc_ville" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc,s4" />
+  <project path="device/htc/fireball" name="jrior001/cfx_device_htc_fireball" remote="github" revision="jb-devel-mr2-release" groups="device,htc" />
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,htc" />
   <project path="device/lge/e970" name="device_lge_e970" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,gee" />
