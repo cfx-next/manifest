@@ -366,6 +366,9 @@
   <project path="device/moto/stingray" name="device_moto_stingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
   <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
+  <project path="device/motorola/mb866" name="device_motorola_mb866" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,motorola,mb866" />
+  <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,motorola,msm8960-common" />
+  <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,motorola,qcom-common" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,oppo,find5" />
   <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,samsung" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" remote="cfx-exp" revision="jb-devel-mr2-release" />
@@ -468,6 +471,7 @@
   <project path="kernel/lge/gproj" name="kernel_lge_gproj" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,lge,gee" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,lge,mako" />
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,moto,xoom" />
+  <project path="kernel/motorola/msm8960-common" name="kernel_motorola_msm8960-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,moto,msm8960" />
   <project path="kernel/oppo/find5" name="kernel_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,oppo,find5" />
   <project path="kernel/samsung/dempsey" name="kernel_samsung_dempsey" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,infuse4g" />
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" remote="cfx-exp" revision="jb-devel-mr2-release" groups="kernel,samsung,manta" />
@@ -518,6 +522,7 @@
   <project path="vendor/lge/e975" name="vendor_lge_e975" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,gee" />
   <project path="vendor/lge/mako" name="vendor_lge_mako" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,mako" />
   <project path="vendor/moto" name="vendor_moto" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,moto" />
+  <project path="vendor/motorola" name="vendor_motorola" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,motorola" /> 
   <project path="vendor/nvidia" name="vendor_nvidia" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,nvidia" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,nxp" />
   <project path="vendor/oppo/find5" name="vendor_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="vendor,oppo,find5" />
