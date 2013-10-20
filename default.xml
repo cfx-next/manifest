@@ -365,7 +365,7 @@
   <project path="device/moto/stingray" name="device_moto_stingray" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
   <project path="device/moto/umts_everest" name="device_moto_umts_everest" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
   <project path="device/moto/stingray_cdma" name="device_moto_stingray_cdma" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,moto,xoom" />
-  <project path="device/motorola/mb866" name="device_motorola_mb866" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,motorola,mb866" />
+  <project path="device/motorola/mb886" name="device_motorola_mb886" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,motorola,mb866" />
   <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,motorola,msm8960-common" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,motorola,qcom-common" />
   <project path="device/oppo/find5" name="device_oppo_find5" remote="cfx-exp" revision="jb-devel-mr2-release" groups="device,oppo,find5" />
