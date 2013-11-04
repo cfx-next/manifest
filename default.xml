@@ -28,6 +28,7 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="abi_cpp" groups="pdk" />
+  <project path="art" name="art" />
   <project path="bionic" name="bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="bootable_diskinstaller" />
@@ -64,6 +65,8 @@
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" groups="notdefault,device,htc,ace" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" groups="notdefault,device,htc,s4,m7,m7ul,m7spr,jewel,evita,ville,fireball" />
   <project path="device/lge/e970" name="device_lge_e970" groups="notdefault,device,lge,gee,e970" />
+  <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="notdefault,device,hammerhead" />
+  <project path="device/lge/hammerhead-kernel" name="device_lge_hammerhead-kernel" groups="notdefault,device,hammerhead" />
   <project path="device/lge/ls970" name="device_lge_ls970" groups="notdefault,device,lge,gee,ls970" />
   <project path="device/lge/ls970-common" name="device_lge_ls970-common" groups="notdefault,device,lge,gee,ls970" />
   <project path="device/lge/mako" name="device_lge_mako" groups="notdefault,device,lge,mako" />
@@ -115,7 +118,32 @@
   <project path="external/ceres-solver" name="external_ceres-solver" />
   <project path="external/checkpolicy" name="external_checkpolicy" groups="pdk" />
   <project path="external/chromium" name="external_chromium" />
+  <project path="external/chromium-libpac" name="external_chromium-libpac" />
   <project path="external/chromium-trace" name="external_chromium-trace" groups="pdk" />
+  <project path="external/chromium_org" name="external_chromium_org" />
+  <project path="external/chromium_org/sdch/open-vcdiff" name="external_chromium_org_sdch_open-vcdiff" />
+  <project path="external/chromium_org/testing/gtest" name="external_chromium_org_testing_gtest" />
+  <project path="external/chromium_org/third_party/WebKit" name="external_chromium_org_third_party_WebKit" />
+  <project path="external/chromium_org/third_party/angle_dx11" name="external_chromium_org_third_party_angle_dx11" />
+  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="external_chromium_org_third_party_eyesfree_src_android_java_src_com_googlecode_eyesfree_braille" />
+  <project path="external/chromium_org/third_party/freetype" name="external_chromium_org_third_party_freetype" />
+  <project path="external/chromium_org/third_party/icu" name="external_chromium_org_third_party_icu" />
+  <project path="external/chromium_org/third_party/leveldatabase/src" name="external_chromium_org_third_party_leveldatabase_src" />
+  <project path="external/chromium_org/third_party/libjingle/source/talk" name="external_chromium_org_third_party_libjingle_source_talk" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="external_chromium_org_third_party_libphonenumber_src_phonenumbers" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="external_chromium_org_third_party_libphonenumber_src_resources" />
+  <project path="external/chromium_org/third_party/mesa/src" name="external_chromium_org_third_party_mesa_src" />
+  <project path="external/chromium_org/third_party/openssl" name="external_chromium_org_third_party_openssl" />
+  <project path="external/chromium_org/third_party/opus/src" name="external_chromium_org_third_party_opus_src" />
+  <project path="external/chromium_org/third_party/ots" name="external_chromium_org_third_party_ots" />
+  <project path="external/chromium_org/third_party/skia/gyp" name="external_chromium_org_third_party_skia_gyp" />
+  <project path="external/chromium_org/third_party/skia/include" name="external_chromium_org_third_party_skia_include" />
+  <project path="external/chromium_org/third_party/skia/src" name="external_chromium_org_third_party_skia_src" />
+  <project path="external/chromium_org/third_party/smhasher/src" name="external_chromium_org_third_party_smhasher_src" />
+  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="external_chromium_org_third_party_yasm_source_patched-yasm" />
+  <project path="external/chromium_org/tools/grit" name="external_chromium_org_tools_grit" />
+  <project path="external/chromium_org/tools/gyp" name="external_chromium_org_tools_gyp" />
+  <project path="external/chromium_org/v8" name="external_chromium_org_v8" />
   <project path="external/clang" name="external_clang" groups="pdk" />
   <project path="external/compiler-rt" name="external_compiler-rt" groups="pdk" />
   <project path="external/conscrypt" name="external_conscrypt" />
@@ -123,6 +151,7 @@
   <project path="external/dhcpcd" name="external_dhcpcd" />
   <project path="external/dnsmasq" name="external_dnsmasq" groups="pdk" />
   <project path="external/doclava" name="external_doclava" />
+  <project path="external/droiddriver" name="external_droiddriver" />
   <project path="external/dropbear" name="external_dropbear" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" groups="pdk" />
   <project path="external/easymock" name="external_easymock" />
@@ -189,7 +218,6 @@
   <project path="external/libsepol" name="external_libsepol" groups="pdk" />
   <project path="external/libunwind" name="external_libunwind" />
   <project path="external/libusb" name="external_libusb" />
-  <project path="external/libusb_aah" name="external_libusb_aah" groups="libusb_aah" />
   <project path="external/libusb-compat" name="external_libusb-compat" />
   <project path="external/libvorbis" name="external_libvorbis" />
   <project path="external/libvpx" name="external_libvpx" groups="pdk" />
@@ -200,6 +228,7 @@
   <project path="external/littlemock" name="external_littlemock" />
   <project path="external/llvm" name="external_llvm" groups="pdk" />
   <project path="external/lz4" name="external_lz4" />
+  <project path="external_lzma" name="external_lzma" />
   <project path="external/marisa-trie" name="external_marisa-trie" />
   <project path="external/markdown" name="external_markdown" />
   <project path="external/mdnsresponder" name="external_mdnsresponder" groups="pdk" />
@@ -226,6 +255,7 @@
   <project path="external/openssl" name="external_openssl" groups="pdk" />
   <project path="external/oprofile" name="external_oprofile" />
   <project path="external/ppp" name="external_ppp" />
+  <project path="external/pixman" name="external_pixman" />
   <project path="external/proguard" name="external_proguard" groups="pdk-java" />
   <project path="external/protobuf" name="external_protobuf" groups="pdk" />
   <project path="external/qemu" name="external_qemu" />
@@ -237,6 +267,8 @@
   <project path="external/safe-iop" name="external_safe-iop" groups="pdk" />
   <project path="external/scrypt" name="external_scrypt" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" />
+  <project path="external/sfntly" name="external_sfntly" />
+  <project path="external/sil-fonts" name="external_sil-fonts" />
   <project path="external/skia" name="external_skia" />
   <project path="external/smack" name="external_smack" />
   <project path="external/smali" name="external_smali" />
@@ -253,6 +285,7 @@
   <project path="external/tcpdump" name="external_tcpdump" />
   <project path="external/timezonepicker-support" name="external_timezonepicker-support" />
   <project path="external/tinyalsa" name="external_tinyalsa" groups="pdk" />
+  <project path="external/tinycompress" name="external_tinycompress" groups="pdk" />
   <project path="external/tinyxml" name="external_tinyxml" groups="pdk" />
   <project path="external/tinyxml2" name="external_tinyxml2" groups="pdk" />
   <project path="external/tremolo" name="external_tremolo" groups="pdk" />
@@ -292,6 +325,7 @@
   <project path="frameworks/rs" name="frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="frameworks_support" />
   <project path="frameworks/testing" name="frameworks_testing" />
+  <project path="frameworks/uiautomator" name="frameworks_uiautomator" />
   <project path="frameworks/volley" name="frameworks_volley" />
   <project path="frameworks/webview" name="frameworks_webview" />
   <project path="frameworks/wilhelm" name="frameworks_wilhelm" />
@@ -306,6 +340,7 @@
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" groups="qcom" />
   <project path="hardware/qcom/audio-jb_26" name="hardware_qcom_audio-jb_26" groups="qcom" /> 
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" groups="qcom" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="hardware_qcom_display-caf" groups="qcom" />
   <project path="hardware/qcom/display-jb_26" name="hardware_qcom_display-jb_26" groups="qcom" />
@@ -316,6 +351,7 @@
   <project path="hardware/qcom/media-jb_26" name="hardware_qcom_media-jb_26" groups="qcom" />
   <project path="hardware/qcom/media-legacy" name="OpenSEMC/android_hardware_qcom_media-legacy" remote="github" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/msm8960" name="hardware_qcom_msm8960" groups="qcom_msm8960" />
+  <project path="hardware/qcom/msm8x74" name="hardware_qcom_msm8x74" groups="qcom_msm8x74" />
   <project path="hardware/qcom/power" name="hardware_qcom_power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="hardware_qcom_sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" />
@@ -353,6 +389,7 @@
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" />
   <project path="packages/apps/Camera" name="packages_apps_camera" />
+  <project path="packages/apps/Camera2" name="packages_apps_camera2" />
   <project path="packages/apps/CDMATools" name="bigrushdog/cdma_tools" remote="github" revision="master" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" />
@@ -372,6 +409,7 @@
   <project path="packages/apps/KernelControls" name="bigrushdog/kernel_controls" remote="github" revision="jb-devel" />
   <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" />
   <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" />
+  <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" />
   <project path="packages/apps/LegacyCamera" name="packages_apps_LegacyCamera" />
   <project path="packages/apps/Mms" name="packages_apps_mms" />
   <project path="packages/apps/Music" name="packages_apps_Music" />
@@ -393,6 +431,7 @@
   <project path="packages/apps/Tag" name="packages_apps_Tag" />
   <project path="packages/apps/Torch" name="packages_apps_torch" />
   <project path="packages/apps/VideoEditor" name="packages_apps_VideoEditor" />
+  <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" />
   <project path="packages/apps/VoicePlus" name="packages_apps_voiceplus" />
   <project path="packages/experimental" name="packages_experimental" />
@@ -472,6 +511,7 @@
   <project path="prebuilts/python/darwin-x86/2.7.5" name="prebuilts_python_darwin-x86_2.7.5" groups="darwin" />
   <project path="prebuilts/python/linux-x86/2.7.5" name="prebuilts_python_linux-x86_2.7.5" groups="linux" />
   <project path="prebuilts/qemu-kernel" name="prebuilts_qemu-kernel" groups="pdk" />
+  <project path="prebuilts/runtime" name="prebuilts_runtime" />
   <project path="prebuilts/sdk" name="prebuilts_sdk" groups="pdk" />
   <project path="prebuilts/tools" name="prebuilts_tools" groups="pdk,tools" />
   <project path="sdk" name="sdk" />
