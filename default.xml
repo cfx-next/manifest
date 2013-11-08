@@ -199,6 +199,7 @@
   <project path="external/linux-tools-perf" name="external_linux-tools-perf" />
   <project path="external/littlemock" name="external_littlemock" />
   <project path="external/llvm" name="external_llvm" groups="pdk" />
+  <project path="external/lz4" name="external_lz4" />
   <project path="external/marisa-trie" name="external_marisa-trie" />
   <project path="external/markdown" name="external_markdown" />
   <project path="external/mdnsresponder" name="external_mdnsresponder" groups="pdk" />
