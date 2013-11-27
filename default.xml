@@ -57,13 +57,14 @@
   <project path="device/htc/m7-common" name="device_htc_m7-common" groups="notdefault,device,htc,m7,m7spr,m7ul" />
   <project path="device/htc/m7spr" name="device_htc_m7spr" groups="notdefault,device,htc,m7,m7spr" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" groups="notdefault,device,htc,m7,m7ul" />
+  <project path="device/htc/dlx" name="device_htc_dlx" groups="notdefault,device,htc,m7,dlx" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" groups="notdefault,device,htc,s4,jewel,evita,ville,fireball" />
   <project path="device/htc/jewel" name="device_htc_jewel" groups="notdefault,device,htc,s4,jewel" />
   <project path="device/htc/evita" name="device_htc_evita" groups="notdefault,device,htc,s4,evita" />
   <project path="device/htc/ville" name="device_htc_ville" groups="notdefault,device,htc,s4,ville" />
   <project path="device/htc/fireball" name="device_htc_fireball" groups="notdefault,device,htc,fireball" />
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" groups="notdefault,device,htc,ace" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" groups="notdefault,device,htc,s4,m7,m7ul,m7spr,jewel,evita,ville,fireball" />
+  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" groups="notdefault,device,htc,s4,dlx,m7,m7ul,m7spr,jewel,evita,ville,fireball" />
   <project path="device/lge/e970" name="device_lge_e970" groups="notdefault,device,lge,gee,e970" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="notdefault,device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device_lge_hammerhead-kernel" groups="notdefault,device,hammerhead" />
@@ -100,7 +101,6 @@
   <project path="external/aac" name="external_aac" groups="pdk" />
   <project path="external/android-clat" name="external_android-clat" />
   <project path="external/android-mock" name="external_android-mock" />
-  <project path="external/angle" name="external_angle" />
   <project path="external/ant-glob" name="external_ant-glob" />
   <project path="external/antlr" name="external_antlr" />
   <project path="external/apache-harmony" name="external_apache-harmony" />
@@ -356,7 +356,7 @@
   <project path="hardware/qcom/sensors" name="hardware_qcom_sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="hardware_ril" groups="pdk" />
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-10.2" />
+  <project path="hardware/samsung" name="hardware_samsung" />
   <project path="hardware/samsung_slsi/exynos5" name="hardware_samsung_slsi_exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="hardware_ti_omap3" />
   <project path="hardware/ti/omap4xxx" name="hardware_ti_omap4xxx" groups="omap4" />
@@ -366,7 +366,7 @@
   <project path="kernel/asus/grouper" name="imoseyon/leanKernel-grouper" remote="github" revision="lk-jb-mr2" groups="notdefault,kernel,asus,grouper,tilapia" />
   <project path="kernel/asus/tf101" name="kernel_asus_tf101" groups="notdefault,kernel,asus,tf101" />
   <project path="kernel/asus/tf300t" name="RaymanFX/android_kernel_asus_tf300t" remote="github" revision="jb-devel-mr2" groups="notdefault,kernel,asus,tf300t" />
-  <project path="kernel/htc/m7" name="kernel_htc_m7" groups="notdefault,kernel,htc,m7,m7ul,m7spr" />
+  <project path="kernel/htc/m7" name="kernel_htc_m7" groups="notdefault,kernel,htc,dlx,m7,m7ul,m7spr" />
   <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" groups="notdefault,kernel,htc,msm8960,s4,evita,jewel,ville,fireball" />
   <project path="kernel/htc/msm7x30" name="kernel_htc_msm7x30" groups="notdefault,kernel,htc,ace,msm7x30" />
   <project path="kernel/lge/gproj" name="kernel_lge_gproj" groups="notdefault,kernel,lge,gee,e970,ls970" />
@@ -544,7 +544,7 @@
   <project path="vendor/broadcom" name="vendor_broadcom" groups="vendor,broadcom" />
   <project path="vendor/broadcom/wlan" name="OpenSEMC/vendor_broadcom_wlan" remote="github" revision="cm-10.2" groups="vendor,broadcom" />
   <project path="vendor/cfx" name="vendor_cfx" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" groups="notdefault,vendor,htc,m7,m7ul,m7spr,s4,jewel,evita,ville,fireball" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" groups="notdefault,vendor,htc,dlx,m7,m7ul,m7spr,s4,jewel,evita,ville,fireball" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" groups="notdefault,vendor,htc,ace" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" groups="vendor,imgtec" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" groups="vendor,invensense" />
