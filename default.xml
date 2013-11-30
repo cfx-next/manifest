@@ -92,9 +92,10 @@
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" groups="notdefault,device,samsung,tuna,toroplus" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" groups="notdefault,device,samsung,tuna,maguro,toro,toroplus" />
   <project path="device/samsung_slsi/arndale" name="device_samsung_slsi_arndale" groups="notdefault,device,samsung_slsi,arndale" />
-  <project path="device/sony/common" name="OpenSEMC/android_device_sony_common" remote="github" revision="cm-10.2" groups="device,sony,common"/>
-  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="jb-devel-mr2" groups="device,sony,hikari"/>
-  <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="jb-devel-mr2" groups="device,sony,nozomi"/>
+  <project path="device/sony/aoba" name="OpenSEMC/android_device_sony_aoba" remote="github" revision="cm-11.0" groups="device,sony,aoba"/>
+  <project path="device/sony/fuji-common" name="OpenSEMC/android_device_sony_fuji-common" remote="github" revision="cm-11.0" groups="device,sony"/>
+  <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="cm-11.0" groups="device,sony,hikari"/>
+  <project path="device/sony/nozomi" name="OpenSEMC/android_device_sony_nozomi" remote="github" revision="cm-11.0" groups="device,sony,nozomi"/>
   <project path="kernel/sony/msm8x60" name="OpenSEMC/android_kernel_sony_msm8x60" remote="github" revision="jb-devel-mr2" groups="kernel"/>
   <project path="device/ti/panda" name="device_ti_panda" groups="notdefault,device,ti,texasinstruments,panda" />
   <project path="docs/source.android.com" name="docs_source.android.com" />
