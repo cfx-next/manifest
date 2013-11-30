@@ -372,6 +372,7 @@
   <project path="kernel/htc/msm7x30" name="kernel_htc_msm7x30" groups="notdefault,kernel,htc,ace,msm7x30" />
   <project path="kernel/lge/gproj" name="kernel_lge_gproj" groups="notdefault,kernel,lge,gee,e970,ls970" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" groups="notdefault,kernel,lge,mako" />
+  <project path="kernel/lge/msm8974" name="kernel_lge_msm8974" groups="notdefault,kernel,lge,msm8974,vs980,vs920" />
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" groups="notdefault,kernel,moto,motorola,xoom,wingray,stingray,umts_everest,everest" />
   <project path="kernel/motorola/msm8960-common" name="kernel_motorola_msm8960-common" groups="notdefault,kernel,moto,motorola,msm8960,mb886" />
   <project path="kernel/oppo/find5" name="kernel_oppo_find5" groups="notdefault,kernel,oppo,find5" />
@@ -379,6 +380,7 @@
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-10.2" groups="notdefault,kernel,samsung,jf,jfltevzw,jfltespr,jfltetmo,jfltexx,jflteatt" />
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" groups="notdefault,kernel,samsung,manta" />
   <project path="kernel/samsung/tuna" name="leanKernel-galaxy-nexus" groups="notdefault,kernel,samsung,tuna,maguro,toro,toroplus" />
+  <project path="kernel/samsung/smdk4412" name="android_kernel_samsung_smdk4412" groups="notdefault,kernel,samsung,smdk4412,kona,n5110" />
   <project path="libcore" name="libcore" />
   <project path="libnativehelper" name="libnativehelper" groups="pdk-java" />
   <project path="ndk" name="ndk" />
@@ -553,6 +555,7 @@
   <project path="vendor/invensense" name="proprietary_vendor_invensense" groups="vendor,invensense" />
   <project path="vendor/lge/e975" name="vendor_lge_e975" groups="notdefault,vendor,lge,gee,e970,e975,ls970" />
   <project path="vendor/lge/mako" name="vendor_lge_mako" groups="notdefault,vendor,lge,mako" />
+  <project path="vendor/lge/vs980" name="vendor_lge_vs980" groups="notdefault,vendor,lge,vs980" />
   <project path="vendor/motorola" name="vendor_motorola" groups="notdefault,vendor,motorola,moto,mb886,xoom,wingray,stingray,umts_everest,singray_cdma" /> 
   <project path="vendor/nvidia" name="vendor_nvidia" groups="vendor,nvidia" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" groups="vendor,nxp" />
@@ -569,6 +572,9 @@
   <project path="vendor/samsung/toro" name="vendor_samsung_toro" groups="notdefault,vendor,samsung,toro,tuna" />
   <project path="vendor/samsung/toroplus" name="vendor_samsung_toroplus" groups="notdefault,vendor,samsung,toroplus,tuna" />
   <project path="vendor/samsung/tuna" name="vendor_samsung_tuna" groups="notdefault,vendor,samsung,maguro,toro,toroplus,tuna" />
+  <project path="vendor/samsung/kona-common" name="vendor_samsung_kona-common" groups="notdefault,vendor,samsung,kona,smdk4112" />
+  <project path="vendor/samsung/n5110" name="vendor_samsung_n5110" groups="notdefault,vendor,samsung,kona,n5110" />
+  <project path="vendor/samsung/smdk4412-common" name="vendor_samsung_smdk4412-common" groups="notdefault,vendor,samsung,kona,smdk4112,n5110" />
   <project path="vendor/sony" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="cm-10.2" groups="vendor,sony,nozomi" />
   <project path="vendor/tmobile/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" groups="vendor,tmobile" />
   <project path="vendor/tmobile/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" groups="vendor,tmobile" />
