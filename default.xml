@@ -366,7 +366,7 @@
   <project path="kernel/asus/grouper" name="imoseyon/leanKernel-grouper" remote="github" revision="lk-jb-mr2" groups="notdefault,kernel,asus,grouper,tilapia" />
   <project path="kernel/asus/tf101" name="kernel_asus_tf101" groups="notdefault,kernel,asus,tf101" />
   <project path="kernel/asus/tf300t" name="RaymanFX/android_kernel_asus_tf300t" remote="github" revision="jb-devel-mr2" groups="notdefault,kernel,asus,tf300t" />
-  <project path="kernel/htc/m7" name="kernel_htc_m7" groups="notdefault,kernel,htc,dlx,m7,m7ul,m7spr" />
+  <project path="kernel/htc/m7" name="kernel_htc_m7" groups="notdefault,kernel,htc,dlx,m7,m7ul,m7spr,m7tmo,m7att,m7vzw" />
   <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" groups="notdefault,kernel,htc,msm8960,s4,evita,jewel,ville,fireball" />
   <project path="kernel/htc/msm7x30" name="kernel_htc_msm7x30" groups="notdefault,kernel,htc,ace,msm7x30" />
   <project path="kernel/lge/gproj" name="kernel_lge_gproj" groups="notdefault,kernel,lge,gee,e970,ls970" />
@@ -541,25 +541,24 @@
   <project path="toolchain/src/ppl" name="Mustaavalkosta/toolchain_ppl" remote="github" revision="master" />
   <project path="toolchain/src/texinfo" name="toolchain_texinfo" remote="cfx-exp" revision="jb-devel" />
   <project path="vendor/asus" name="proprietary_vendor_asus" groups="notdefault,vendor,asus,grouper,tilapia,tf101,tf300t,flo" />
+  <project path="vendor/audience" name="proprietary_vendor_audience" groups="vendor,audience,manta" />
   <project path="vendor/broadcom" name="vendor_broadcom" groups="vendor,broadcom" />
   <project path="vendor/broadcom/wlan" name="OpenSEMC/vendor_broadcom_wlan" remote="github" revision="cm-10.2" groups="vendor,broadcom" />
   <project path="vendor/cfx" name="vendor_cfx" />
+  <project path="vendor/elan" name="proprietary_vendor_elan" groups="vendor,elan,asus,grouper,tilapia" />
   <project path="vendor/htc" name="proprietary_vendor_htc" groups="notdefault,vendor,htc,dlx,m7,m7ul,m7spr,s4,jewel,evita,ville,fireball" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" groups="notdefault,vendor,htc,ace" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" groups="vendor,imgtec" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" groups="vendor,invensense" />
   <project path="vendor/lge/e975" name="vendor_lge_e975" groups="notdefault,vendor,lge,gee,e970,e975,ls970" />
   <project path="vendor/lge/mako" name="vendor_lge_mako" groups="notdefault,vendor,lge,mako" />
-  <project path="vendor/moto" name="vendor_moto" groups="notdefault,vendor,moto,motorola,xoom,wingray,stingray,umts_everest,singray_cdma" />
-  <project path="vendor/motorola" name="vendor_motorola" groups="notdefault,vendor,motorola,moto,mb886" /> 
+  <project path="vendor/motorola" name="vendor_motorola" groups="notdefault,vendor,motorola,moto,mb886,xoom,wingray,stingray,umts_everest,singray_cdma" /> 
   <project path="vendor/nvidia" name="vendor_nvidia" groups="vendor,nvidia" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" groups="vendor,nxp" />
   <project path="vendor/oppo/find5" name="vendor_oppo_find5" groups="notdefault,vendor,oppo,find5" />
   <project path="vendor/qcom/mako" name="vendor_qcom_mako" groups="notdefault,vendor,qcom,lge,mako" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" groups="notdefault,vendor,qcom,htc,ace" />
   <project path="vendor/samsung/manta" name="vendor_samsung_manta" groups="notdefault,vendor,samsung,manta" />
-  <project path="vendor/samsung/aries-common" name="vendor_samsung_aries-common" groups="notdefault,vendor,samsung,aries,infuse4g" />
-  <project path="vendor/samsung/infuse4g" name="vendor_samsung_infuse4g" groups="notdefault,vendor,samsung,infuse4g,aries" />
   <project path="vendor/samsung/jfltexx" name="vendor_samsung_jfltexx" groups="notdefault,vendor,samsung,jfltexx,jf" />
   <project path="vendor/samsung/jf-common" name="vendor_samsung_jf-common" groups="notdefault,vendor,samsung,jflte,jf,jf-common,jfltexx,jfltevzw,jfltetmo,jfltespr" />
   <project path="vendor/samsung/jfltevzw" name="vendor_samsung_jfltevzw" groups="notdefault,vendor,samsung,jfltevzw,jf,jflte" />
