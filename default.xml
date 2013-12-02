@@ -520,7 +520,7 @@
   <project path="system/netd" name="system_netd" groups="pdk" />
   <project path="system/security" name="system_security" groups="pdk" />
   <project path="system/vold" name="system_vold" groups="pdk" />
-  <project path="toolchain" name="toolchain" remote="cfx-exp" revision="jb-devel-mr2-release" />
+  <project path="toolchain" name="toolchain" remote="cfx-exp" revision="kk-devel" />
   <project path="toolchain/src/binutils/binutils-upstream" name="toolchain_binutils-upstream" remote="cfx-exp" revision="jb-devel" />
   <project path="toolchain/src/build" name="toolchain_build" remote="cfx-exp" revision="jb-devel" />
   <project path="toolchain/src/llvm/tools/clang" name="toolchain_clang" remote="cfx-exp" revision="develop_34" />
