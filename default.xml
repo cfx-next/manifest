@@ -84,7 +84,6 @@
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" groups="notdefault,device,samsung,jf,jf-common,jfltexx,jfltevzw" />
   <project path="device/samsung/jfltexx" name="device_samsung_jfltexx" groups="notdefault,device,samsung,jf,jfltexx" />
   <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" groups="notdefault,device,samsung,jf,jfltevzw" />
-  <project path="device/samsung/infuse4g" name="device_samsung_infuse4g" groups="notdefault,device,samsung,infuse4g,aries" />
   <project path="device/samsung/maguro" name="device_samsung_maguro" groups="notdefault,device,samsung,tuna,maguro" />
   <project path="device/samsung/manta" name="device_samsung_manta" groups="notdefault,device,samsung,manta" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-10.2" />
