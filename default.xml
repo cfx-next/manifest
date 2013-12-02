@@ -80,7 +80,6 @@
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" groups="notdefault,device,moto,motorola,qcom-common,mb886" />
   <project path="device/oppo/find5" name="device_oppo_find5" groups="notdefault,device,oppo,find5" />
   <project path="device/sample" name="device_sample" groups="pdk" />
-  <project path="device/samsung/aries-common" name="device_samsung_aries-common" groups="notdefault,device,samsung,aries,aries-common,infuse4g" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" groups="notdefault,device,samsung,jf,jf-common,jfltexx,jfltevzw" />
   <project path="device/samsung/jfltexx" name="device_samsung_jfltexx" groups="notdefault,device,samsung,jf,jfltexx" />
   <project path="device/samsung/jfltevzw" name="device_samsung_jfltevzw" groups="notdefault,device,samsung,jf,jfltevzw" />
