@@ -549,6 +549,7 @@
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" groups="vendor,imgtec" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" groups="vendor,invensense" />
   <project path="vendor/lge/e975" name="vendor_lge_e975" groups="notdefault,vendor,lge,gee,e970,e975,ls970" />
+  <project path="vendor/lge/hammerhead" name="vendor_lge_hammerhead" groups="notdefault,vendor,lge,hammerhead" />
   <project path="vendor/lge/mako" name="vendor_lge_mako" groups="notdefault,vendor,lge,mako" />
   <project path="vendor/lge/vs980" name="vendor_lge_vs980" groups="notdefault,vendor,lge,vs980" />
   <project path="vendor/motorola" name="vendor_motorola" groups="notdefault,vendor,motorola,moto,mb886,xoom,wingray,stingray,umts_everest,singray_cdma" /> 
