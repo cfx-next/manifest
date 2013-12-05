@@ -28,7 +28,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="abi_cpp" groups="pdk" />
-  <project path="art" name="art" />
   <project path="bionic" name="bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="bootable_bootloader_legacy" />
   <project path="bootable/diskinstaller" name="bootable_diskinstaller" />
@@ -572,9 +571,6 @@
   <project path="vendor/samsung/n5110" name="vendor_samsung_n5110" groups="notdefault,vendor,samsung,kona,n5110" />
   <project path="vendor/samsung/smdk4412-common" name="vendor_samsung_smdk4412-common" groups="notdefault,vendor,samsung,kona,smdk4112,n5110" />
   <project path="vendor/sony" name="OpenSEMC/proprietary_vendor_sony" remote="github" revision="cm-10.2" groups="vendor,sony,nozomi" />
-  <project path="vendor/tmobile/ThemeChooser" name="themes-platform-vendor-tmobile-apps-ThemeChooser" groups="vendor,tmobile" />
-  <project path="vendor/tmobile/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" groups="vendor,tmobile" />
-  <project path="vendor/tmobile/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" groups="vendor,tmobile" />
   <project path="vendor/widevine" name="proprietary_vendor_widevine" groups="vendor,widevine" />
 
 </manifest>
