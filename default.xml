@@ -362,6 +362,7 @@
   <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" groups="notdefault,kernel,htc,msm8960,s4,evita,jewel,ville,fireball" />
   <project path="kernel/htc/msm7x30" name="kernel_htc_msm7x30" groups="notdefault,kernel,htc,ace,msm7x30" />
   <project path="kernel/lge/gproj" name="kernel_lge_gproj" groups="notdefault,kernel,lge,gee,e970,ls970" />
+  <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" groups="notdefault,kernel,lge,hammerhead" />
   <project path="kernel/lge/mako" name="kernel_lge_mako" groups="notdefault,kernel,lge,mako" />
   <project path="kernel/lge/msm8974" name="kernel_lge_msm8974" groups="notdefault,kernel,lge,msm8974,vs980,vs920" />
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" groups="notdefault,kernel,moto,motorola,xoom,wingray,stingray,umts_everest,everest" />
