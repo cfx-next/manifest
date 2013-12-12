@@ -27,6 +27,7 @@
   <project path="build" name="build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="art" name="art" />
   <project path="abi/cpp" name="abi_cpp" groups="pdk" />
   <project path="bionic" name="bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="bootable_bootloader_legacy" />
