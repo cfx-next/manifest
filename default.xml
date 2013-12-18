@@ -522,19 +522,19 @@
   <project path="toolchain" name="toolchain" remote="cfx-exp" revision="kk-devel" />
   <project path="toolchain/src/binutils/binutils-upstream" name="toolchain_binutils-upstream" remote="cfx-exp" revision="jb-devel" />
   <project path="toolchain/src/build" name="toolchain_build" remote="cfx-exp" revision="jb-devel" />
-  <project path="toolchain/src/llvm/tools/clang" name="toolchain_clang" remote="cfx-exp" revision="develop_34" />
+  <project path="toolchain/src/llvm/tools/clang" name="toolchain_clang" remote="cfx-exp" revision="develop_35" />
   <project path="toolchain/src/cloog" name="toolchain_cloog" remote ="cfx-exp" revision="jb-devel" />
-  <project path="toolchain/src/llvm/projects/compiler-rt" name="toolchain_compiler-rt" remote="cfx-exp" revision="develop_34" />
+  <project path="toolchain/src/llvm/projects/compiler-rt" name="toolchain_compiler-rt" remote="cfx-exp" revision="develop_35" />
   <project path="toolchain/src/expat" name="toolchain/expat" remote="aosp" revision="master" />
   <project path="toolchain/src/gcc" name="toolchain_gcc" remote="cfx-exp" revision="jb-devel" />
   <project path="toolchain/src/gdb" name="toolchain_gdb" remote="cfx-exp" revision="jb-devel" />
   <project path="toolchain/src/gmp" name="toolchain_gmp" remote="cfx-exp" revision="jb-devel" />
   <project path="toolchain/src/isl" name="toolchain_isl" remote="cfx-exp" revision="jb-devel" />
-  <project path="toolchain/src/llvm/tools/lldb" name="toolchain_lldb" remote="cfx-exp" revision="develop_34" />
-  <project path="toolchain/src/llvm" name="toolchain_llvm" remote="cfx-exp" revision="develop_34" />
+  <project path="toolchain/src/llvm/tools/lldb" name="toolchain_lldb" remote="cfx-exp" revision="develop_35" />
+  <project path="toolchain/src/llvm" name="toolchain_llvm" remote="cfx-exp" revision="develop_35" />
   <project path="toolchain/src/mpc" name="toolchain_mpc" remote="cfx-exp" revision="jb-devel" />
   <project path="toolchain/src/mpfr" name="toolchain_mpfr" remote="cfx-exp" revision="jb-devel" />
-  <project path="toolchain/src/llvm/tools/polly" name="toolchain_polly" remote="cfx-exp" revision="develop_34" />
+  <project path="toolchain/src/llvm/tools/polly" name="toolchain_polly" remote="cfx-exp" revision="develop_35" />
   <project path="toolchain/src/ppl" name="Mustaavalkosta/toolchain_ppl" remote="github" revision="master" />
   <project path="toolchain/src/texinfo" name="toolchain_texinfo" remote="cfx-exp" revision="jb-devel" />
   <project path="vendor/asus" name="proprietary_vendor_asus" groups="notdefault,vendor,asus,grouper,tilapia,tf101,tf300t,flo" />
