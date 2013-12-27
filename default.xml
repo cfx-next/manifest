@@ -390,6 +390,7 @@
   <project path="packages/apps/CDMATools" name="bigrushdog/cdma_tools" remote="github" revision="master" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" />
+  <project path="packages/apps/CFXControls" name="packages_apps_CFXControls" />
   <project path="packages/apps/CFXTools" name="packages_apps_CFXTools" />
   <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" />
   <project path="packages/apps/Contacts" name="packages_apps_contacts" />
