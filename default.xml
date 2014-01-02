@@ -382,6 +382,7 @@
   <project path="packages/apps/Apollo" name="packages_apps_apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="packages_apps_bluetooth" />
+  <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" name="packages_apps_Browser" />
   <project path="packages/apps/Calculator" name="packages_apps_Calculator" />
   <project path="packages/apps/Calendar" name="packages_apps_Calendar" />
@@ -415,7 +416,6 @@
   <project path="packages/apps/Nfc" name="packages_apps_nfc" />
   <project path="packages/apps/OneTimeInitializer" name="packages_apps_OneTimeInitializer" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" />
-  <project path="packages/apps/Phone" name="packages_apps_phone" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" />
   <project path="packages/apps/Protips" name="packages_apps_Protips" />
   <project path="packages/apps/Provision" name="packages_apps_Provision" />
@@ -431,7 +431,6 @@
   <project path="packages/apps/VideoEditor" name="packages_apps_VideoEditor" />
   <project path="packages/apps/UnifiedEmail" name="packages_apps_UnifiedEmail" />
   <project path="packages/apps/VoiceDialer" name="packages_apps_VoiceDialer" />
-  <project path="packages/apps/VoicePlus" name="packages_apps_voiceplus" />
   <project path="packages/experimental" name="packages_experimental" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_latinime" />
   <project path="packages/inputmethods/OpenWnn" name="packages_inputmethods_openwnn" />
