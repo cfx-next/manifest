@@ -56,6 +56,7 @@
   <project path="device/htc/ace" name="device_htc_ace" groups="notdefault,device,htc,ace" />
   <project path="device/htc/m7-common" name="device_htc_m7-common" groups="notdefault,device,htc,m7,m7spr,m7ul" />
   <project path="device/htc/m7spr" name="device_htc_m7spr" groups="notdefault,device,htc,m7,m7spr" />
+  <project path="device/htc/m7tmo" name="device_htc_m7tmo" groups="notdefault,device,htc,m7,m7tmo" />
   <project path="device/htc/m7ul" name="android_device_htc_m7ul" groups="notdefault,device,htc,m7,m7ul" />
   <project path="device/htc/dlx" name="device_htc_dlx" groups="notdefault,device,htc,m7,dlx" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" groups="notdefault,device,htc,s4,jewel,evita,ville,fireball" />
