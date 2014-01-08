@@ -379,6 +379,7 @@
   <project path="libnativehelper" name="libnativehelper" groups="pdk-java" />
   <project path="ndk" name="ndk" />
   <project path="packages/apps/0xbench" name="packages_apps_0xbench" />
+  <project path="packages/apps/AndroidFileExplorer" name="packages_apps_android_file_explorer" />
   <project path="packages/apps/Apollo" name="packages_apps_apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="packages_apps_bluetooth" />
@@ -393,7 +394,6 @@
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" />
   <project path="packages/apps/CFXControls" name="packages_apps_CFXControls" />
   <project path="packages/apps/CFXTools" name="packages_apps_CFXTools" />
-  <project path="packages/apps/CMFileManager" name="packages_apps_CMFileManager" />
   <project path="packages/apps/Contacts" name="packages_apps_contacts" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="packages_apps_Deskclock" />
