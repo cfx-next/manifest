@@ -380,7 +380,6 @@
   <project path="ndk" name="ndk" />
   <project path="packages/apps/0xbench" name="packages_apps_0xbench" />
   <project path="packages/apps/AndroidFileExplorer" name="packages_apps_android_file_explorer" />
-  <project path="packages/apps/Apollo" name="packages_apps_apollo" />
   <project path="packages/apps/BasicSmsReceiver" name="packages_apps_BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="packages_apps_bluetooth" />
   <project path="packages/apps/BluetoothExt" name="packages_apps_BluetoothExt" />
