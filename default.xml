@@ -245,6 +245,7 @@
   <project path="external/nist-pkits" name="external_nist-pkits" />
   <project path="external/nist-sip" name="external_nist-sip" />
   <project path="external/noto-fonts" name="external_noto-fonts" />
+  <project path="external/ntfs-3g" name="external_ntfs-3g" />
   <project path="external/oauth" name="external_oauth" />
   <project path="external/objenesis" name="external_objenesis" />
   <project path="external/okhttp" name="external_okhttp" />
