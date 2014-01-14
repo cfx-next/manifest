@@ -91,6 +91,9 @@
   <project path="device/samsung/toroplus" name="device_samsung_toroplus" groups="notdefault,device,samsung,tuna,toroplus" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" groups="notdefault,device,samsung,tuna,maguro,toro,toroplus" />
   <project path="device/samsung_slsi/arndale" name="device_samsung_slsi_arndale" groups="notdefault,device,samsung_slsi,arndale" />
+  <project path="device/samsung/n5110" name="android_device_samsung_n5110" groups="notdefault,device,samsung,kona,n5110" />
+  <project path="device/samsung/kona-common" name="android_device_samsung_kona-common" groups="notdefault,device,samsung,smdk4412,kona" />
+  <project path="device/samsung/smdk4412-common" name="android_device_samsung_smdk4412-common" groups="notdefault,device,samsung,smdk4412" />
   <project path="device/sony/aoba" name="OpenSEMC/android_device_sony_aoba" remote="github" revision="kk-devel" groups="notdefault,device,sony,aoba"/>
   <project path="device/sony/fuji-common" name="OpenSEMC/android_device_sony_fuji-common" remote="github" revision="kk-devel" groups="notdefault,device,sony"/>
   <project path="device/sony/hikari" name="OpenSEMC/android_device_sony_hikari" remote="github" revision="kk-devel" groups="notdefault,device,sony,hikari"/>
