@@ -80,6 +80,7 @@
   <project path="device/motorola/msm8960-common" name="device_motorola_msm8960-common" groups="notdefault,device,moto,motorola,msm8960-common,mb886" />
   <project path="device/motorola/qcom-common" name="device_motorola_qcom-common" groups="notdefault,device,moto,motorola,qcom-common,mb886" />
   <project path="device/oppo/find5" name="device_oppo_find5" groups="notdefault,device,oppo,find5" />
+  <project path="device/oppo/n1" name="device_oppo_n1" groups="notdefault,device,oppo,n1" />
   <project path="device/sample" name="device_sample" groups="pdk" />
   <project path="device/samsung/jf-common" name="device_samsung_jf-common" groups="notdefault,device,samsung,jf,jf-common,jfltexx,jfltevzw" />
   <project path="device/samsung/jfltexx" name="device_samsung_jfltexx" groups="notdefault,device,samsung,jf,jfltexx" />
@@ -365,7 +366,6 @@
   <project path="kernel/asus/grouper" name="imoseyon/leanKernel-grouper" remote="github" revision="lk-jb-mr2" groups="notdefault,kernel,asus,grouper,tilapia" />
   <project path="kernel/asus/tf101" name="kernel_asus_tf101" groups="notdefault,kernel,asus,tf101" />
   <project path="kernel/asus/tf300t" name="RaymanFX/android_kernel_asus_tf300t" remote="github" revision="jb-devel-mr2" groups="notdefault,kernel,asus,tf300t" />
-  <project path="kernel/qcom/cfx" name="kernel_qcom_cfx" groups="notdefault,kernel,oppo,find5,n1" />
   <project path="kernel/htc/m7" name="kernel_htc_m7" groups="notdefault,kernel,htc,dlx,m7,m7ul,m7spr,m7tmo,m7att,m7vzw" />
   <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" groups="notdefault,kernel,htc,msm8960,s4,evita,jewel,ville,fireball" />
   <project path="kernel/htc/msm7x30" name="kernel_htc_msm7x30" groups="notdefault,kernel,htc,ace,msm7x30" />
@@ -376,6 +376,7 @@
   <project path="kernel/moto/wingray" name="kernel_moto_wingray" groups="notdefault,kernel,moto,motorola,xoom,wingray,stingray,umts_everest,everest" />
   <project path="kernel/motorola/msm8960-common" name="kernel_motorola_msm8960-common" groups="notdefault,kernel,moto,motorola,msm8960,mb886" />
   <project path="kernel/oppo/find5" name="kernel_oppo_find5" groups="notdefault,kernel,oppo,find5" />
+  <project path="kernel/qcom/cfx" name="kernel_qcom_cfx" groups="notdefault,kernel,oppo,find5,n1" />
   <project path="kernel/samsung/dempsey" name="kernel_samsung_dempsey" groups="notdefault,kernel,samsung,aries,infuse4g" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-10.2" groups="notdefault,kernel,samsung,jf,jfltevzw,jfltespr,jfltetmo,jfltexx,jflteatt" />
   <project path="kernel/samsung/manta" name="kernel_samsung_manta" groups="notdefault,kernel,samsung,manta" />
@@ -564,6 +565,7 @@
   <project path="vendor/nvidia" name="vendor_nvidia" groups="vendor,nvidia" />
   <project path="vendor/nxp" name="proprietary_vendor_nxp" groups="vendor,nxp" />
   <project path="vendor/oppo/find5" name="vendor_oppo_find5" groups="notdefault,vendor,oppo,find5" />
+  <project path="vendor/oppo/n1" name="vendor_oppo_n1" groups="notdefault,vendor,oppo,n1" />
   <project path="vendor/qcom/mako" name="vendor_qcom_mako" groups="notdefault,vendor,qcom,lge,mako" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" groups="notdefault,vendor,qcom,htc,ace" />
   <project path="vendor/samsung/manta" name="vendor_samsung_manta" groups="notdefault,vendor,samsung,manta" />
