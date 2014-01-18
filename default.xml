@@ -340,7 +340,6 @@
   <project path="hardware/invensense" name="hardware_invensense" groups="invensense" />
   <project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" />
-  <project path="hardware/msm7k" name="hardware_msm7k" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" groups="qcom" />
   <project path="hardware/qcom/audio-caf" name="hardware_qcom_audio-caf" groups="qcom" />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom" />
