@@ -166,12 +166,14 @@
   <project path="external/embunit" name="external_embunit" />
   <project path="external/emma" name="external_emma" />
   <project path="external/esd" name="external_esd" />
+  <project path="external/exfat" name="external_exfat" />
   <project path="external/expat" name="external_expat" groups="pdk" />
   <project path="external/eyes-free" name="external_eyes-free" />
   <project path="external/fdlibm" name="external_fdlibm" />
   <project path="external/flac" name="external_flac" groups="pdk" />
   <project path="external/freetype" name="external_freetype" groups="pdk" />
   <project path="external/fsck_msdos" name="external_fsck_msdos" />
+  <project path="external/fuse" name="external_fuse" />
   <project path="external/ganymed-ssh2" name="external_ganymed-ssh2" />
   <project path="external/gcc-demangle" name="external_gcc-demangle" groups="pdk" />
   <project path="external/genext2fs" name="external_genext2fs" />
