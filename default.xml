@@ -11,6 +11,9 @@
   <remote  name="cfx"
            fetch="https://bitbucket.org/codefirex" />
 
+  <remote  name="cfx-private"
+           fetch="https://bitbucket.org/codefirexperiment" />
+
   <remote  name="cfx-exp"
            fetch="git://github.com/codefireXperiment/" />
 
@@ -569,6 +572,10 @@
   <project path="vendor/oppo/n1" name="vendor_oppo_n1" groups="notdefault,vendor,oppo,n1" />
   <project path="vendor/qcom/mako" name="vendor_qcom_mako" groups="notdefault,vendor,qcom,lge,mako" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" groups="notdefault,vendor,qcom,htc,ace" />
+  <project path="vendor/qcom/proprietary/libqc-dalvik" name="vendor_qcom_proprietary_libqc-dalvik" remote="cfx-private" revision="kk-devel" groups="notdefault,private" />
+  <project path="vendor/qcom/proprietary/libqc-opt" name="vendor_qcom_proprietary_libqc-opt" remote="cfx-private" revision="kk-devel" groups="notdefault,private" />
+  <project path="vendor/qcom/proprietary/libqc-skia" name="vendor_qcom_proprietary_libqc-skia" remote="cfx-private" revision="kk-devel" groups="notdefault,private" />
+  <project path="vendor/qcom/proprietary/libqc-sqlite" name="vendor_qcom_proprietary_libqc-sqlite" remote="cfx-private" revision="kk-devel" groups="notdefault,private" />
   <project path="vendor/samsung/manta" name="vendor_samsung_manta" groups="notdefault,vendor,samsung,manta" />
   <project path="vendor/samsung/jfltexx" name="vendor_samsung_jfltexx" groups="notdefault,vendor,samsung,jfltexx,jf" />
   <project path="vendor/samsung/jf-common" name="vendor_samsung_jf-common" groups="notdefault,vendor,samsung,jflte,jf,jf-common,jfltexx,jfltevzw,jfltetmo,jfltespr" />
