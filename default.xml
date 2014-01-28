@@ -570,6 +570,7 @@
   <project path="vendor/qcom/mako" name="vendor_qcom_mako" groups="notdefault,vendor,qcom,lge,mako" />
   <project path="vendor/qcom/proprietary" name="vendor_qcom_proprietary" groups="notdefault,vendor,qcom,htc,ace" />
   <project path="vendor/qcom/proprietary/libqc-dalvik" name="vendor_qcom_proprietary_libqc-dalvik" />
+  <project path="vendor/qcom/proprietary/libqc-mpctl" name="vendor_qcom_proprietary_libqc-mpctl" />
   <project path="vendor/qcom/proprietary/libqc-opt" name="vendor_qcom_proprietary_libqc-opt" />
   <project path="vendor/qcom/proprietary/libqc-skia" name="vendor_qcom_proprietary_libqc-skia" />
   <project path="vendor/qcom/proprietary/libqc-sqlite" name="vendor_qcom_proprietary_libqc-sqlite" />
