@@ -54,10 +54,9 @@
   <project path="device/google/accessory/arduino" name="device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device_google_accessory_demokit" groups="device" />
   <project path="device/htc/ace" name="device_htc_ace" groups="notdefault,device,htc,ace" />
-  <project path="device/htc/m7-common" name="device_htc_m7-common" groups="notdefault,device,htc,m7,m7spr,m7ul" />
+  <project path="device/htc/m7-common" name="device_htc_m7-common" groups="notdefault,device,htc,m7,m7spr" />
+  <project path="device/htc/m7" name="device_htc_m7" groups="notdefault,device,htc,m7," />
   <project path="device/htc/m7spr" name="device_htc_m7spr" groups="notdefault,device,htc,m7,m7spr" />
-  <project path="device/htc/m7tmo" name="device_htc_m7tmo" groups="notdefault,device,htc,m7,m7tmo" />
-  <project path="device/htc/m7ul" name="android_device_htc_m7ul" groups="notdefault,device,htc,m7,m7ul" />
   <project path="device/htc/dlx" name="device_htc_dlx" groups="notdefault,device,htc,m7,dlx" />
   <project path="device/htc/s4-common" name="device_htc_s4-common" groups="notdefault,device,htc,s4,jewel,evita,ville,fireball" />
   <project path="device/htc/jewel" name="device_htc_jewel" groups="notdefault,device,htc,s4,jewel" />
@@ -65,7 +64,7 @@
   <project path="device/htc/ville" name="device_htc_ville" groups="notdefault,device,htc,s4,ville" />
   <project path="device/htc/fireball" name="device_htc_fireball" groups="notdefault,device,htc,fireball" />
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" groups="notdefault,device,htc,ace" />
-  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" groups="notdefault,device,htc,s4,dlx,m7,m7ul,m7spr,jewel,evita,ville,fireball" />
+  <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" groups="notdefault,device,htc,s4,dlx,m7,m7spr,jewel,evita,ville,fireball" />
   <project path="device/lge/e970" name="device_lge_e970" groups="notdefault,device,lge,gee,e970" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="notdefault,device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device_lge_hammerhead-kernel" groups="notdefault,device,hammerhead" />
@@ -367,8 +366,8 @@
   <project path="kernel/asus/grouper" name="imoseyon/leanKernel-grouper" remote="github" revision="lk-jb-mr2" groups="notdefault,kernel,asus,grouper,tilapia" />
   <project path="kernel/asus/tf101" name="kernel_asus_tf101" groups="notdefault,kernel,asus,tf101" />
   <project path="kernel/asus/tf300t" name="RaymanFX/android_kernel_asus_tf300t" remote="github" revision="jb-devel-mr2" groups="notdefault,kernel,asus,tf300t" />
-  <project path="kernel/htc/m7" name="kernel_htc_m7" groups="notdefault,kernel,htc,dlx,m7,m7ul,m7spr,m7tmo,m7att,m7vzw" />
-  <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" groups="notdefault,kernel,htc,msm8960,s4,evita,jewel,ville,fireball" />
+  <project path="kernel/htc/m7" name="kernel_htc_m7" groups="notdefault,kernel,htc,dlx" />
+  <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" groups="notdefault,kernel,htc,msm8960,s4,m7,m7spr,m7vzw,evita,jewel,ville,fireball" />
   <project path="kernel/htc/msm7x30" name="kernel_htc_msm7x30" groups="notdefault,kernel,htc,ace,msm7x30" />
   <project path="kernel/lge/gproj" name="kernel_lge_gproj" groups="notdefault,kernel,lge,gee,e970,ls970" />
   <project path="kernel/lge/hammerhead" name="kernel_lge_hammerhead" groups="notdefault,kernel,lge,hammerhead" />
@@ -554,7 +553,7 @@
   <project path="vendor/broadcom/wlan" name="OpenSEMC/vendor_broadcom_wlan" remote="github" revision="kk-devel" groups="vendor,broadcom" />
   <project path="vendor/cfx" name="vendor_cfx" />
   <project path="vendor/elan" name="proprietary_vendor_elan" groups="vendor,elan,asus,grouper,tilapia" />
-  <project path="vendor/htc" name="proprietary_vendor_htc" groups="notdefault,vendor,htc,dlx,m7,m7ul,m7spr,s4,jewel,evita,ville,fireball" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" groups="notdefault,vendor,htc,dlx,m7,m7spr,s4,jewel,evita,ville,fireball" />
   <project path="vendor/htc/ace" name="vendor_htc_ace" groups="notdefault,vendor,htc,ace" />
   <project path="vendor/imgtec" name="proprietary_vendor_imgtec" groups="vendor,imgtec" />
   <project path="vendor/invensense" name="proprietary_vendor_invensense" groups="vendor,invensense" />
