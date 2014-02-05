@@ -363,7 +363,7 @@
   <project path="hardware/ti/wlan" name="hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="hardware_ti_wpan" />
   <project path="kernel/asus/flo" name="kernel_asus_flo" groups="notdefault,kernel,asus,flo" />
-  <project path="kernel/asus/grouper" name="imoseyon/leanKernel-grouper" remote="github" revision="lk-jb-mr2" groups="notdefault,kernel,asus,grouper,tilapia" />
+  <project path="kernel/asus/grouper" name="imoseyon/leanKernel-grouper" remote="github" revision="lk-kitkat-mr0" groups="notdefault,kernel,asus,grouper,tilapia" />
   <project path="kernel/asus/tf101" name="kernel_asus_tf101" groups="notdefault,kernel,asus,tf101" />
   <project path="kernel/asus/tf300t" name="RaymanFX/android_kernel_asus_tf300t" remote="github" revision="jb-devel-mr2" groups="notdefault,kernel,asus,tf300t" />
   <project path="kernel/htc/m7" name="kernel_htc_m7" groups="notdefault,kernel,htc,dlx" />
