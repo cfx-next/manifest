@@ -400,6 +400,7 @@
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" />
   <project path="packages/apps/CFXControls" name="packages_apps_CFXControls" />
   <project path="packages/apps/CFXTools" name="packages_apps_CFXTools" />
+  <project path="packages/apps/CFXWeather" name="packages_apps_CFXWeather" />
   <project path="packages/apps/Contacts" name="packages_apps_contacts" />
   <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="packages_apps_Deskclock" />
