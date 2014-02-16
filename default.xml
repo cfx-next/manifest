@@ -543,8 +543,8 @@
   <project path="toolchain/src/isl" name="toolchain_isl" remote="cfx-exp" revision="kk-devel" />
   <project path="toolchain/src/llvm/tools/lldb" name="toolchain_lldb" remote="cfx-exp" revision="develop_35" />
   <project path="toolchain/src/llvm" name="toolchain_llvm" remote="cfx-exp" revision="develop_35" />
-  <project path="toolchain/src/mpc" name="toolchain_mpc" remote="cfx-exp" revision="jb-devel" />
-  <project path="toolchain/src/mpfr" name="toolchain_mpfr" remote="cfx-exp" revision="jb-devel" />
+  <project path="toolchain/src/mpc" name="toolchain_mpc" remote="cfx-exp" revision="kk-devel" />
+  <project path="toolchain/src/mpfr" name="toolchain_mpfr" remote="cfx-exp" revision="kk-devel" />
   <project path="toolchain/src/llvm/tools/polly" name="toolchain_polly" remote="cfx-exp" revision="develop_35" />
   <project path="toolchain/src/ppl" name="Mustaavalkosta/toolchain_ppl" remote="github" revision="master" />
   <project path="toolchain/src/texinfo" name="toolchain_texinfo" remote="cfx-exp" revision="jb-devel" />
