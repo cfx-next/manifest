@@ -401,7 +401,6 @@
   <project path="packages/apps/CDMATools" name="bigrushdog/cdma_tools" remote="github" revision="master" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="packages_apps_CertInstaller" />
-  <project path="packages/apps/CFXControls" name="packages_apps_CFXControls" />
   <project path="packages/apps/CFXTools" name="packages_apps_CFXTools" />
   <project path="packages/apps/CFXWeather" name="packages_apps_CFXWeather" />
   <project path="packages/apps/Contacts" name="packages_apps_contacts" />
@@ -411,12 +410,10 @@
   <project path="packages/apps/DSPManager" name="packages_apps_DSPManager" />
   <project path="packages/apps/Email" name="packages_apps_Email" />
   <project path="packages/apps/Exchange" name="packages_apps_Exchange" />
-  <project path="packages/apps/FMRadio" name="CyanogenMod/android_packages_apps_FMRadio" remote="github" revision="cm-10.2" />
   <project path="packages/apps/Gallery" name="packages_apps_Gallery" />
   <project path="packages/apps/Gallery2" name="packages_apps_gallery2" />
   <project path="packages/apps/HTMLViewer" name="packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="packages_apps_InCallUI" />
-  <project path="packages/apps/KernelControls" name="bigrushdog/kernel_controls" remote="github" revision="jb-devel" />
   <project path="packages/apps/KeyChain" name="packages_apps_KeyChain" />
   <project path="packages/apps/Launcher2" name="packages_apps_Launcher2" />
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" />
