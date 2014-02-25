@@ -40,7 +40,6 @@
   <project path="device/asus/flo-kernel" name="device_asus_flo-kernel" groups="notdefault,device,flo,asus" />
   <project path="device/asus/grouper" name="device_asus_grouper" groups="notdefault,device,grouper,tilapia,asus" />
   <project path="device/asus/tf101" name="device_asus_tf101" groups="notdefault,device,asus,tf101" />
-  <project path="device/asus/tf300t" name="RaymanFX/android_device_asus_tf300t" remote="github" revision="jb-devel-mr2" groups="notdefault,device,asus,tf300t" />
   <project path="device/asus/tilapia" name="device_asus_tilapia" groups="notdefault,device,grouper,tilapia,asus" />
   <project path="device/common" name="device_common" />
   <project path="device/generic/armv7-a-neon" name="device_generic_armv7-a-neon" groups="pdk" />
@@ -368,7 +367,6 @@
   <project path="kernel/asus/flo" name="kernel_asus_flo" groups="notdefault,kernel,asus,flo" />
   <project path="kernel/asus/grouper" name="imoseyon/leanKernel-grouper" remote="github" revision="lk-kitkat-mr0" groups="notdefault,kernel,asus,grouper,tilapia" />
   <project path="kernel/asus/tf101" name="kernel_asus_tf101" groups="notdefault,kernel,asus,tf101" />
-  <project path="kernel/asus/tf300t" name="RaymanFX/android_kernel_asus_tf300t" remote="github" revision="jb-devel-mr2" groups="notdefault,kernel,asus,tf300t" />
   <project path="kernel/google/msm" name="kernel_google_msm" revision="cm-11.0" groups="notdefault,kernel,asus,lge,flo,hammerhead,mako" />
   <project path="kernel/htc/m7" name="kernel_htc_m7" groups="notdefault,kernel,htc,dlx" />
   <project path="kernel/htc/msm8960" name="kernel_htc_msm8960" groups="notdefault,kernel,htc,msm8960,s4,m7,m7spr,m7vzw,evita,jewel,ville,fireball" />
