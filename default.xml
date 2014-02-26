@@ -539,7 +539,7 @@
   <project path="toolchain/src/gcc" name="toolchain_gcc" remote="cfx-exp" revision="kk-devel" />
   <project path="toolchain/src/gdb" name="toolchain_gdb" remote="cfx-exp" revision="kk-devel" />
   <project path="toolchain/src/gmp" name="toolchain_gmp" remote="cfx-exp" revision="kk-devel" />
-  <project path="toolchain/src/cloog-upstream/isl" name="toolchain_isl-upstream" remote="cfx-exp" revision="kk-devel" />
+  <project path="toolchain/src/cloog/cloog-upstream/isl" name="toolchain_isl-upstream" remote="cfx-exp" revision="kk-devel" />
   <project path="toolchain/src/llvm/tools/lldb" name="toolchain_lldb" remote="cfx-exp" revision="develop_35" />
   <project path="toolchain/src/llvm" name="toolchain_llvm" remote="cfx-exp" revision="develop_35" />
   <project path="toolchain/src/mpc" name="toolchain_mpc" remote="cfx-exp" revision="kk-devel" />
