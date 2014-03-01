@@ -478,6 +478,7 @@
   <project path="prebuilts/clang/linux-x86/x86/3.3" name="prebuilts_clang_linux-x86_x86_3.3" groups="linux,x86" />
   <project path="prebuilts/clang/linux-x86/3.4" name="prebuilts_clang_linux-x86_3.4" remote="cfx-exp" revision="develop_34" groups="linux,x86" />
   <project path="prebuilts/clang/linux-x86/3.5" name="prebuilts_clang_linux-x86_3.5" remote="cfx-exp" revision="develop_35" groups="linux,x86" />
+  <project path="prebuilts/cloog-isl/darwin-x86" name="prebuilts_cloog-isl_darwin-x86" groups="darwin,x86" />
   <project path="prebuilts/devtools" name="prebuilts_devtools" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.6" name="prebuilts_gcc_darwin-x86_arm_arm-eabi-4.6" groups="pdk,darwin,arm" />
   <project path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.7" name="prebuilts_gcc_darwin-x86_arm_arm-eabi-4.7" groups="pdk,darwin,arm" />
