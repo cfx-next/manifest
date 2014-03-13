@@ -271,6 +271,7 @@
   <project path="external/regex-re2" name="external_regex-re2" />
   <project path="external/replicaisland" name="external_replicaisland" />
   <project path="external/robolectric" name="external_robolectric" />
+  <project path="external/rsync" name="external_rsync" />
   <project path="external/safe-iop" name="external_safe-iop" groups="pdk" />
   <project path="external/scrypt" name="external_scrypt" />
   <project path="external/sepolicy" name="external_sepolicy" groups="pdk" />
