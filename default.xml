@@ -66,6 +66,7 @@
   <project path="device/htc/msm7x30-common" name="device_htc_msm7x30-common" groups="notdefault,device,htc,ace" />
   <project path="device/htc/msm8960-common" name="device_htc_msm8960-common" groups="notdefault,device,htc,s4,dlx,m7,m7spr,m7vzw,jewel,evita,ville,fireball" />
   <project path="device/lge/e970" name="device_lge_e970" groups="notdefault,device,lge,gee,e970" />
+  <project path="device/lge/gproj-common" name="device_lge_gproj-common" groups="notdefault,device,lge,gee,e970,ls970" />
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" groups="notdefault,device,hammerhead" />
   <project path="device/lge/hammerhead-kernel" name="device_lge_hammerhead-kernel" groups="notdefault,device,hammerhead" />
   <project path="device/lge/ls970" name="device_lge_ls970" groups="notdefault,device,lge,gee,ls970" />
