@@ -21,10 +21,8 @@
            remote="cfx-next"
            sync-j="16" />
 
-  <project path="build" name="build" groups="pdk" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
 
+  <project path="manifest" name="manifest" />
   <project path="toolchain" name="toolchain" remote="cfx-next" revision="kk44" />
   <project path="toolchain/src/binutils/binutils-upstream" name="toolchain_binutils-upstream" remote="cfx-next" revision="kk44" />
   <project path="toolchain/src/build" name="toolchain_build" remote="cfx-next" revision="kk44" />
