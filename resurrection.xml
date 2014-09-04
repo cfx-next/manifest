@@ -9,7 +9,7 @@
            fetch="git://codeaurora.org/" />
 
   <remote  name="cfx-next"
-           fetch="git://github.com/codefireXperiment/" />
+           fetch="git://github.com/cfx-next/" />
 
   <remote  name="github"
            fetch="git://github.com" />
