@@ -41,7 +41,7 @@
   <project path="toolchain/src/llvm/tools/polly" name="toolchain_polly" remote="cfx-next" revision="kk44" />
   <project path="toolchain/src/mpc" name="toolchain_mpc" remote="cfx-next" revision="kk44" />
   <project path="toolchain/src/mpfr" name="toolchain_mpfr" remote="cfx-next" revision="kk44" />
-  <project path="toolchain/src/ppl" name="Mustaavalkosta/toolchain_ppl" remote="cfx-next" revision="kk44" />
+  <project path="toolchain/src/ppl" name="toolchain_ppl" remote="cfx-next" revision="kk44" />
   <project path="toolchain/src/texinfo" name="toolchain_texinfo" remote="cfx-next" revision="kk44" />
 
 </manifest>
